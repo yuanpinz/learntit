@@ -1,4 +1,4 @@
-## Check out what I've learnt!
+## Learnt it, take notes and share it
 
-### SSH
+> Check out what I've learnt!
 
