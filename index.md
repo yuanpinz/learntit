@@ -1,7 +1,7 @@
 ## Learnt it, take notes and share it
 
 ### Programming
-- SSH
+- [SSH](./learnt/ssh/ssh-notes.md)
 - Git & Github
 - vim
 - docker
