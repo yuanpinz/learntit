@@ -7,6 +7,7 @@
 - docker
 
 ### Machine Learning
+- Semi-supervised Learning
 
-### Deap Learnning Topics
-- GAN
+
+### Paper Reading
