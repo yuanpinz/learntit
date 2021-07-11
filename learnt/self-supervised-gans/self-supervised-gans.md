@@ -22,7 +22,7 @@
 3. [Regularizing Discriminative Capability of CGANs for Semi-Supervised Generative Learning ](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Regularizing_Discriminative_Capability_of_CGANs_for_Semi-Supervised_Generative_Learning_CVPR_2020_paper.pdf)
 	Yi Liu, Guangchang Deng, Xiangping Zeng, Si Wu, Zhiwen Yu, Hau-San Wong. **[CVPR 2020]**
 
-## Relative Research
+### Relative Research
 
 1. [Training GANs with Stronger Augmentations via Contrastive Discriminator](https://arxiv.org/abs/2103.09742) [[code]](https://github.com/jh-jeong/ContraD)
 	Jeong J, Shin J. **[ICLR 2021]**

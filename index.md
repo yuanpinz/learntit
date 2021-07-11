@@ -11,7 +11,7 @@
 
 ### Paper Reading
 
-- Self-supervised GANs [[notes]](./learnt/self-supervised-gans/self-supervised-gans.md) [[assets]](./learnt/self-supervised-gans)
+- Self-supervised GANs [[notes]](./learnt/self-supervised-gans/self-supervised-gans.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/self-supervised-gans)
 
-- Semi-supervised Learning [[notes]](./learnt/semi-supervised-learning/semi-supervised-learning.md) [[assets]](./learnt/semi-supervised-learning)
+- Semi-supervised Learning [[notes]](./learnt/semi-supervised-learning/semi-supervised-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/semi-supervised-learning)
 
