@@ -15,12 +15,12 @@
 
 1. [Self-Supervised CycleGAN for Object-Preserving Image-to-Image Domain Adaptation](https://link.springer.com/content/pdf/10.1007/978-3-030-58565-5_30.pdf)
 	Xie X, Chen J, Li Y, et al. **[ECCV 2020]**
-
 2. [Transformation Consistency Regularization- A Semi-Supervised Paradigm for Image-to-Image Translation ](https://arxiv.org/abs/2007.07867)
 	Aamir Mustafa, Rafal K. Mantiuk. **[ECCV 2020]**
-
 3. [Regularizing Discriminative Capability of CGANs for Semi-Supervised Generative Learning ](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Regularizing_Discriminative_Capability_of_CGANs_for_Semi-Supervised_Generative_Learning_CVPR_2020_paper.pdf)
 	Yi Liu, Guangchang Deng, Xiangping Zeng, Si Wu, Zhiwen Yu, Hau-San Wong. **[CVPR 2020]**
+4. [Contrastive Learning for Unpaired Image-to-Image Translation](http://taesung.me/ContrastiveUnpairedTranslation/)
+  Taesung Park, Alexei A. Efros, Richard Zhang, Jun-Yan Zhu. **[ECCV 2020]**
 
 ### Relative Research
 
