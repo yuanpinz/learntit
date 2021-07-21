@@ -9,9 +9,11 @@
 ### Machine Learning
 - Semi-supervised Learning
 
-### Paper Reading
+### Deep Learning Topics
 
 - Self-supervised GANs [[notes]](./learnt/self-supervised-gans/self-supervised-gans.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/self-supervised-gans)
 
 - Semi-supervised Learning [[notes]](./learnt/semi-supervised-learning/semi-supervised-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/semi-supervised-learning)
+
+- Knowledge Distillation [[notes]](./learnt/knowledge-distillation/knowledge-distillation.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/knowledge-distillation)
 
