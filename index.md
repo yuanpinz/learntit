@@ -15,3 +15,5 @@
 
 - Class Imbalanced Learning [[notes]](./learnt/class-imbalanced-learning/class-imbalanced-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/class-imbalanced-learning)
 
+- Noisy Labels [[notes]](./learnt/noisy-labels/noisy-labels.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/noisy-labels)
+

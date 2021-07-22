@@ -2,7 +2,7 @@
 
 ## Survey
 
-[Gou J, Yu B, Maybank S J, et al. Knowledge distillation: A survey[J]. International Journal of Computer Vision, 2021, 129(6): 1789-1819.](https://arxiv.org/abs/2006.05525)
+Gou J, Yu B, Maybank S J, et al. Knowledge distillation: A survey[J]. International Journal of Computer Vision, 2021, 129(6): 1789-1819. [[paper]](https://arxiv.org/abs/2006.05525)
 
 ## Repos
 
