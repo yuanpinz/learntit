@@ -1,3 +1,4 @@
+{% include head.html %}
 # Knowledge Distillation
 
 ## Survey
@@ -36,7 +37,7 @@ The framework of KD is shown below.
 ![image-20210721200447581](imgs/image-20210721200447581.png)
 
 - **Distillation loss** for soft targets $L_{ResD}(p(z_t,T),p(z_s,T))=\mathcal{L}_R(p(z_t,T),p(z_s,T))$​ where $p(z_i,T)=\frac{exp(z_i/T)}{\sum_jexp(z_j/T)}$, $\mathcal{L}_R$​​ often employs **Kullback Leibler divergence loss**
-- **Student loss** is always defined as the cross-entropy loss $\mathcal{L}_CE(y,p(z_s,T=1))$​
+- **Student loss** is always defined as the cross-entropy loss $\mathcal{L}_CE(y,p(z_s,T=1))$​​
 - $T$​ is the temperature parameter to control focus on negative samples
 - Since the soft logits are in fact the class probability distribution, the response-based knowledge distillation is also limited to the supervised learning.
 
