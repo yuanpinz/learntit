@@ -17,3 +17,7 @@
 
 - Noisy Labels [[notes]](./learnt/noisy-labels/noisy-labels.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/noisy-labels)
 
+### Paper-Reading
+
+- Lu M Y, Chen T Y, Williamson D F K, et al. AI-based pathology predicts origins for cancers of unknown primary[J]. Nature, 2021, 594(7861): 106-110. [[paper]](https://www.nature.com/articles/s41586-021-03512-4) [[notes]](./learnt/paper-reading/AI-based-pathology-predicts-origins-for-cancers-of-unknown-primary.md)
+
