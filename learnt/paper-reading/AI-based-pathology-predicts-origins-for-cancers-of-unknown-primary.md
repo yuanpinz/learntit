@@ -38,8 +38,9 @@
   - **25,419 primary and 7,118 metastatic** WSIs from 29,107 patient; 52.8% women, 47.2% men)
   - All WSIs were processed and analysed at the **20× equivalent magnification**.
   - The dataset is randomly partitioned and is **stratified by class**, into a training set (70% of cases), a validation set (10% of cases) and a test set (20% of cases)
-  - **Publicly available data**: In total, we gathered **10,406 WSIs from 8,794 patients across 25 TCGA studies** and **2,969 WSIs from 1,151 patients across 7 CPTAC studies**
-  - **In-house data**: **19,162 WSIs (12,215 primary, 6,947 metastatic)** from internal patients at the Brigham and Women’s Hospital
+  - **Data sources**
+    - **Publicly available data**: In total, we gathered **10,406 WSIs from 8,794 patients across 25 TCGA studies** and **2,969 WSIs from 1,151 patients across 7 CPTAC studies**
+    - **In-house data**: **19,162 WSIs (12,215 primary, 6,947 metastatic)** from internal patients at the Brigham and Women’s Hospital
 - **External test set**: 682 samples from more than 200 medical centres
 - **Additional CPU test dataset**: 317 cases of CUP that were assigned a primary differential based on ancillary tests, radiology, patient history, clinical correlation or at autopsy
 
