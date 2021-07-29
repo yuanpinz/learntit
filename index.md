@@ -1,9 +1,9 @@
 ## Learnt it, take notes and share it
 
 ### Programming
-- SSH [[note]](./learnt/ssh/ssh-notes.md)
+- SSH [[note]](./learnt/ssh/ssh-notes.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/ssh)
 - Git & Github
-- vim
+- vim [[note]](./learnt/vim/vim.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/vim)
 - docker
 
 ### Machine Learning
