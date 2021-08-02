@@ -7,7 +7,7 @@
 - SSH [[note]](./learnt/ssh/ssh-notes.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/ssh)
 - Git & Github
 - Vim [[note]](./learnt/vim/vim.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/vim)
-- Docker
+- Docker [[note]](./learnt/docker/docker.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/docker)
 
 ## Machine Learning
 
