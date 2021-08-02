@@ -29,6 +29,7 @@
 - Knowledge Distillation [[notes]](./learnt/knowledge-distillation/knowledge-distillation.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/knowledge-distillation)
 - Class Imbalanced Learning [[notes]](./learnt/class-imbalanced-learning/class-imbalanced-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/class-imbalanced-learning)
 - Noisy Labels [[notes]](./learnt/noisy-labels/noisy-labels.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/noisy-labels)
+- Deep Learning Memorization Effect [[notes]](./learnt/dl-memorization-effect/dl-memorization-effect.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/dl-memorization-effect)
 - Multi-instance Learning [[notes]](./learnt/multi-instance-learning/multi-instance-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/multi-instance-learning)
 - Multi-task Learning [[notes]](./learnt/multi-task-learning/multi-task-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/multi-task-learning)
 
