@@ -8,7 +8,7 @@ Zhang C, Bengio S, Hardt M, et al. Identity crisis: Memorization and generalizat
 
 Yao Q, Yang H, Han B, et al. Searching to exploit memorization effect in learning with noisy labels[C]//International Conference on Machine Learning. PMLR, 2020: 10789-10798. [[paper]](http://proceedings.mlr.press/v119/yao20b/yao20b.pdf)
 
-Krause J, Sapp B, Howard A, et al. The unreasonable effectiveness of noisy data for fine-grained recognition[C]//European Conference on Computer Vision. Springer, Cham, 2016: 301-320. [[paper]](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_19)
+Krause J, Sapp B, Howard A, et al. The unreasonable effectiveness of noisy data for fine-grained recognition[C]//European Conference on Computer Vision. Springer, Cham, 2016: 301-320. [[paper]](https://arxiv.org/pdf/1511.06789.pdf)
 
 Arpit D, Jastrzębski S, Ballas N, et al. A closer look at memorization in deep networks[C]//International Conference on Machine Learning. PMLR, 2017: 233-242. [[paper]](http://proceedings.mlr.press/v70/arpit17a/arpit17a.pdf)
 
