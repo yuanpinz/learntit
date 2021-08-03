@@ -20,6 +20,8 @@
 
 ### Tools
 
+- Jupyter
+- Kaggle
 - How to draw CNN [[notes]](./learnt/ml-tools/draw-cnn.md) 
 
 ### Topics
