@@ -13,10 +13,11 @@
 
 ### Libraries
 
-- TensorFlow2 and PyTorch [[notes]](./learnt/dl-libraries/tf2.md)  [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/dl-libraries)
 - Scikit-learn
 - Scikit-image
 - SciPy
+- Pandas [[notes]](./learnt/pandas/pandas.md)  [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/pandas)
+- TensorFlow2 and PyTorch [[notes]](./learnt/dl-libraries/tf2.md)  [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/dl-libraries)
 
 ### Tools
 
