@@ -10,7 +10,7 @@
 
 ### Data structures in Pandas
 
-[tutorial](https://pandas.pydata.org/docs/getting_started/intro_tutorials/01_table_oriented.html#min-tut-01-tableoriented), [user guide](https://pandas.pydata.org/docs/user_guide/dsintro.html#dsintro)
+[tutorial](https://pandas.pydata.org/docs/getting_started/intro_tutorials/01_table_oriented.html#min-tut-01-tableoriented), [tutorial-2](https://pandas.pydata.org/docs/getting_started/intro_tutorials/05_add_columns.html#min-tut-05-columns), [user guide](https://pandas.pydata.org/docs/user_guide/dsintro.html#dsintro)
 
 #### DataFrame
 
@@ -78,4 +78,17 @@ s = pd.Series(data, index=index)
 ### Indexing
 
 [tutorial](https://pandas.pydata.org/docs/getting_started/intro_tutorials/03_subset_data.html#min-tut-03-subset), [user guide](https://pandas.pydata.org/docs/user_guide/indexing.html#indexing)
+
+### Chart Visualization
+
+[tutorial](https://pandas.pydata.org/docs/getting_started/intro_tutorials/04_plotting.html#min-tut-04-plotting), [user guide](https://pandas.pydata.org/docs/user_guide/visualization.html#visualization)
+
+```python
+# a quick visual check of the data
+pddata.plot()
+# plot other figures
+pddata.plot.scatter()
+pddata.plot.box()
+pddata.plot.area()
+```
 
