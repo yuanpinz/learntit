@@ -22,7 +22,7 @@
 
 ## Papers
 
-
+Wang X, Gao J, Long M, et al. Self-Tuning for Data-Efficient Deep Learning[C]//International Conference on Machine Learning. PMLR, 2021: 10738-10748. [[paper]](http://proceedings.mlr.press/v139/wang21g/wang21g.pdf)
 
 ## Repos
 
