@@ -14,7 +14,9 @@ Zhou T, Fu H, Chen G, et al. Hi-net: hybrid-fusion network for multi-modal MR im
 
 Cai L, Wang Z, Gao H, et al. Deep adversarial learning for multi-modality missing data completion[C]//**Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining**. 2018: 1158-1166.
 
-Ma M, Ren J, Zhao L, et al. Smil: Multimodal learning with severely missing modality[C]//**Proceedings of the AAAI Conference on Artificial Intelligence**. 2021, 35(3): 2302-2310.
+Ma M, Ren J, Zhao L, et al. Smil: Multimodal learning with severely missing modality[C]//**Proceedings of the AAAI Conference on Artificial Intelligence**. 2021, 35(3): 2302-2310. 
+
+Shen L, Zhu W, Wang X, et al. Multi-domain image completion for random missing input data[J]. IEEE Transactions on Medical Imaging, 2020, 40(4): 1113-1122. [[paper]](https://arxiv.org/pdf/2007.05534.pdf)
 
 ## Notes
 

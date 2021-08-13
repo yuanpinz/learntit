@@ -35,6 +35,7 @@
 - Deep Learning Memorization Effect [[notes]](./learnt/dl-memorization-effect/dl-memorization-effect.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/dl-memorization-effect)
 - Multi-instance Learning [[notes]](./learnt/multi-instance-learning/multi-instance-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/multi-instance-learning)
 - Multi-task Learning [[notes]](./learnt/multi-task-learning/multi-task-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/multi-task-learning)
+- Segmentation Loss [[notes]](./learnt/segmentation-loss/segmentation-loss.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/segmentation-loss)
 
 ## Paper-Reading[[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/paper-reading/)
 
