@@ -18,6 +18,10 @@ Sharma Y, Shrivastava A, Ehsan L, et al. Cluster-to-Conquer: A Framework for End
 
 Li Z, Yuan L, Xu H, et al. Deep Multi-Instance Learning with Induced Self-Attention for Medical Image Classification[C]//2020 IEEE International Conference on Bioinformatics and Biomedicine (**BIBM**). IEEE, 2020: 446-450. [[paper]](https://ieeexplore.ieee.org/abstract/document/9313518)
 
+Wang X, Yan Y, Tang P, et al. Revisiting multiple instance neural networks[J]. Pattern Recognition, 2018, 74: 15-24. [[paper]]()(https://arxiv.org/pdf/1610.02501.pdf)
+
+Hashimoto N, Fukushima D, Koga R, et al. Multi-scale domain-adversarial multiple-instance cnn for cancer subtype classification with unannotated histopathological images[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition(**CVPR**). 2020: 3852-3861. [[paper]]()(https://openaccess.thecvf.com/content_CVPR_2020/papers/Hashimoto_Multi-scale_Domain-adversarial_Multiple-instance_CNN_for_Cancer_Subtype_Classification_with_Unannotated_CVPR_2020_paper.pdf)
+
 Li X C, Zhan D C, Yang J Q, et al. Deep multiple instance selection[J]. **Science China Information Sciences**, 2021, 64(3): 130102. [[paper]](file:///C:/Users/PC/Documents/learntit/learnt/multi-instance-learning/assets/deep-multi-instance-selection.pdf)
 
 Møllersen K, Hardeberg J Y, Godtliebsen F. A Probabilistic Bag-to-Class Approach to Multiple-Instance Learning[J]. **Data**, 2020, 5(2): 56. [[paper]](https://www.mdpi.com/2306-5729/5/2/56/htm)
@@ -34,3 +38,8 @@ Møllersen K, Hardeberg J Y, Godtliebsen F. A Probabilistic Bag-to-Class Approac
 ![image-20210806141312613](imgs/image-20210806141312613.png)
 
 - Prediction: Instance-level vs. Bag-level
+
+### Deep MIL
+
+#### MI-Net
+
