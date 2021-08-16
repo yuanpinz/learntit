@@ -20,7 +20,7 @@ Carbonneau M A, Cheplygina V, Granger E, et al. Multiple instance learning: A su
 
 [6] Sharma Y, Shrivastava A, Ehsan L, et al. Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification[J]. arXiv preprint arXiv:2103.10626, 2021.(accepted at **MIDL**) [[paper]](https://arxiv.org/pdf/2103.10626.pdf)
 
-Ma Y, Yang Z. Multi-Instance Learning by Utilizing Structural Relationship among Instances[J]. arXiv preprint arXiv:2102.01889, 2021. [[paper]](https://arxiv.org/pdf/2102.01889.pdf)
+[7] Ma Y, Yang Z. Multi-Instance Learning by Utilizing Structural Relationship among Instances[J]. arXiv preprint arXiv:2102.01889, 2021. [[paper]](https://arxiv.org/pdf/2102.01889.pdf)
 
 Li X C, Zhan D C, Yang J Q, et al. Deep multiple instance selection[J]. **Science China Information Sciences**, 2021, 64(3): 130102. [[paper]](file:///C:/Users/PC/Documents/learntit/learnt/multi-instance-learning/assets/deep-multi-instance-selection.pdf)
 
@@ -45,15 +45,15 @@ Møllersen K, Hardeberg J Y, Godtliebsen F. A Probabilistic Bag-to-Class Approac
 
 #### Att-Net & Gated Att-Net[^2]
 
-#### SA-MIL & ISA-MIL
+#### SA-MIL & ISA-MIL[^3]
 
-#### Loss-Attention MIL
+#### Loss-Attention MIL[^4]
 
-#### MS-DA-MIL
+#### MS-DA-MIL[^5]
 
+#### C2C[^6]
 
-
-
+#### GCN-based MIL[^7]
 
 
 
@@ -65,4 +65,5 @@ Møllersen K, Hardeberg J Y, Godtliebsen F. A Probabilistic Bag-to-Class Approac
 [^4]: Shi X, Xing F, Xie Y, et al. Loss-based attention for deep multiple instance learning[C]//Proceedings of the **AAAI** Conference on Artificial Intelligence. 2020, 34(04): 5742-5749. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/download/6030/5886)
 [^5]: Hashimoto N, Fukushima D, Koga R, et al. Multi-scale domain-adversarial multiple-instance cnn for cancer subtype classification with unannotated histopathological images[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition(**CVPR**). 2020: 3852-3861. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hashimoto_Multi-scale_Domain-adversarial_Multiple-instance_CNN_for_Cancer_Subtype_Classification_with_Unannotated_CVPR_2020_paper.pdf)
 [^6]: Sharma Y, Shrivastava A, Ehsan L, et al. Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification[J]. arXiv preprint arXiv:2103.10626, 2021.(accepted at **MIDL**)[[paper]](https://arxiv.org/pdf/2103.10626.pdf)
+[^7]: Ma Y, Yang Z. Multi-Instance Learning by Utilizing Structural Relationship among Instances[J]. arXiv preprint arXiv:2102.01889, 2021. [[paper]](https://arxiv.org/pdf/2102.01889.pdf)
 
