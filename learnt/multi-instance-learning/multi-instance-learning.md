@@ -67,7 +67,7 @@ Møllersen K, Hardeberg J Y, Godtliebsen F. A Probabilistic Bag-to-Class Approac
 
 #### GNN MIL[^7]
 
-
+#### Dual-stream MIL[^10]
 
 
 
@@ -77,7 +77,7 @@ Møllersen K, Hardeberg J Y, Godtliebsen F. A Probabilistic Bag-to-Class Approac
 [^4]: Shi X, Xing F, Xie Y, et al. Loss-based attention for deep multiple instance learning[C]//Proceedings of the **AAAI** Conference on Artificial Intelligence. 2020, 34(04): 5742-5749. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/download/6030/5886)
 [^5]: Hashimoto N, Fukushima D, Koga R, et al. Multi-scale domain-adversarial multiple-instance cnn for cancer subtype classification with unannotated histopathological images[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition(**CVPR**). 2020: 3852-3861. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hashimoto_Multi-scale_Domain-adversarial_Multiple-instance_CNN_for_Cancer_Subtype_Classification_with_Unannotated_CVPR_2020_paper.pdf)
 [^6]: Sharma Y, Shrivastava A, Ehsan L, et al. Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification[J]. arXiv preprint arXiv:2103.10626, 2021.(accepted at **MIDL**)[[paper]](https://arxiv.org/pdf/2103.10626.pdf)
-[^7]: Ma Y, Yang Z. Multi-Instance Learning by Utilizing Structural Relationship among Instances[J]. arXiv preprint arXiv:2102.01889, 2021. [[paper]](https://arxiv.org/pdf/2102.01889.pdf)
+[^7]: Tu M, Huang J, He X, et al. Multiple instance learning with graph neural networks[J]. arXiv preprint (**ICML**)arXiv:1906.04881, 2019. [[paper]](https://arxiv.org/pdf/1906.04881.pdf)
 [^8]: Ma Y, Yang Z. Multi-Instance Learning by Utilizing Structural Relationship among Instances[J]. arXiv preprint arXiv:2102.01889, 2021. [[paper]](https://arxiv.org/pdf/2102.01889.pdf)
 [^9]: Adnan M, Kalra S, Tizhoosh H R. Representation learning of histopathology images using graph neural networks[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops.(**CVPR**) 2020: 988-989. [[paper]](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w57/Adnan_Representation_Learning_of_Histopathology_Images_Using_Graph_Neural_Networks_CVPRW_2020_paper.pdf)
 [^10]: Li B, Li Y, Eliceiri K W. Dual-stream multiple instance learning network for whole slide image classification with self-supervised contrastive learning[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.(**CVPR**) 2021: 14318-14328. [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Dual-Stream_Multiple_Instance_Learning_Network_for_Whole_Slide_Image_Classification_CVPR_2021_paper.pdf)
