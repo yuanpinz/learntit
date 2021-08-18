@@ -2,6 +2,8 @@
 
 ## Survey
 
+Zhou Z H. Multi-instance learning: A survey[J]. Department of Computer Science & Technology, Nanjing University, Tech. Rep, 2004, 1. [[paper]]()
+
 Cheplygina V, de Bruijne M, Pluim J P W. Not-so-supervised: a survey of semi-supervised, multi-instance, and transfer learning in medical image analysis[J]. Medical image analysis, 2019, 54: 280-296. [[paper]](https://arxiv.org/pdf/1804.06353.pdf)
 
 Carbonneau M A, Cheplygina V, Granger E, et al. Multiple instance learning: A survey of problem characteristics and applications[J]. Pattern Recognition, 2018, 77: 329-353.
@@ -33,6 +35,20 @@ Ilse M, Tomczak J M, Welling M. Deep multiple instance learning for digital hist
 Li X C, Zhan D C, Yang J Q, et al. Deep multiple instance selection[J]. **Science China Information Sciences**, 2021, 64(3): 130102. [[paper]](file:///C:/Users/PC/Documents/learntit/learnt/multi-instance-learning/assets/deep-multi-instance-selection.pdf)
 
 Møllersen K, Hardeberg J Y, Godtliebsen F. A Probabilistic Bag-to-Class Approach to Multiple-Instance Learning[J]. **Data**, 2020, 5(2): 56. [[paper]](https://www.mdpi.com/2306-5729/5/2/56/htm)
+
+
+
+Fu Z, Robles-Kelly A, Zhou J. MILIS: Multiple instance learning with instance selection[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2010, 33(5): 958-977. [[paper]](https://d1wqtxts1xzle7.cloudfront.net/44558895/MILIS_multiple_instance_learning_with_in20160408-10278-9bjmtq.pdf?1460180255=&response-content-disposition=inline%3B+filename%3DMILIS_Multiple_instance_learning_with_in.pdf&Expires=1629259805&Signature=Y24EsDXo84CvX~QYkIUqwqgvIRrPO4uLuE76RTPB0zAb9t1Ts6GBdk45V9m56EdRflS6vImYNRRxUgmgyihUBMQZ5S-lkdqQ74VmPu1BCackLJOCBq4p4AjGc8FrADieY7TkDcQcyi4hzGj88k83rYMCEvjBKV3p5oX1r0-2al2uXgegCnqAonepxRXIqqeZGIUHSUagIU~Hj6AEfYWGWN1vkAXZpacIVBF-mghZmaktheZEvPYFIn5P1vE~TrYcQm6xTi5a-Be2GQaS5nH1vXHsa0btvMYaiTrzP99qHgxA9f6Mj-e--SRo774xZy-OZkPiScU3zYPNpIhttiS1MA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+
+Carbonneau M A, Granger E, Raymond A J, et al. Robust multiple-instance learning ensembles using random subspace instance selection[J]. Pattern recognition, 2016, 58: 83-99. [[paper]](https://www.etsmtl.ca/getattachment/Unites-de-recherche/LIVIA/Recherche-et-innovation/Publications/Publications-2016/Carbonneau-et-al----2016---Robust-Multiple-Instance-Learning-Ensembles-Using-Random-Subspace-Instance-Selection(2).pdf)
+
+
+
+
+
+
+
+
 
 ## Note
 
