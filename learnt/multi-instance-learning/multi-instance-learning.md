@@ -42,7 +42,7 @@ Fu Z, Robles-Kelly A, Zhou J. MILIS: Multiple instance learning with instance se
 
 Carbonneau M A, Granger E, Raymond A J, et al. Robust multiple-instance learning ensembles using random subspace instance selection[J]. Pattern recognition, 2016, 58: 83-99. [[paper]](https://www.etsmtl.ca/getattachment/Unites-de-recherche/LIVIA/Recherche-et-innovation/Publications/Publications-2016/Carbonneau-et-al----2016---Robust-Multiple-Instance-Learning-Ensembles-Using-Random-Subspace-Instance-Selection(2).pdf)
 
-
+Zhao Y, Yang F, Fang Y, et al. Predicting lymph node metastasis using histopathological images based on multiple instance learning with deep graph convolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020: 4837-4846. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Predicting_Lymph_Node_Metastasis_Using_Histopathological_Images_Based_on_Multiple_CVPR_2020_paper.pdf)
 
 
 
@@ -84,6 +84,12 @@ Carbonneau M A, Granger E, Raymond A J, et al. Robust multiple-instance learning
 #### GNN MIL[^7]
 
 #### Dual-stream MIL[^10]
+
+
+
+
+
+
 
 
 
