@@ -9,9 +9,13 @@
 
 ## Notes
 
-[Jargon around Docker](#jargon-around-docker)
+- [Jargon around Docker](#jargon-around-docker)
 
-[Hands-on Docker](#hands-on-docker)
+- [Docker Basics](#docker-basics)
+- [Dockerfile](#dockerfile)
+- [Docker Volumes](#docker-volumes)
+- [Docker Networks](#docker-networks)
+- [Docker Compose](#docker-compose)
 
 ### Jargon around Docker
 
@@ -93,7 +97,7 @@ The most common use case for Docker Compose is to run applications  and their de
 
 Docker Machine allows you to  create Docker hosts on local as well remote systems, including on cloud  platforms like Amazon Web Services, DigitalOcean, and Microsoft Azure
 
-### Hands-on Docker
+### Docker Basics
 
 #### List of commands
 
@@ -202,4 +206,36 @@ Remove images
 ```bash
 docker rmi <image-id>
 ```
+
+Note that docker refuses to remove an image that is referred by another container
+
+### Dockerfile
+
+#### Build Context
+
+```bash
+docker build https://github.com/sathyabhat/sample-repo
+git#mybranch												# or git#mytag
+```
+
+#### Dockerignore
+
+The ignore list provided by ```.dockerignore```
+
+```shell
+# This is a .dockerignore file
+*/temp*
+.DS_Store
+.git
+```
+
+
+
+
+
+### Docker Volumes
+
+### Docker Networks
+
+### Docker Compose
 
