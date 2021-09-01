@@ -229,7 +229,83 @@ The ignore list provided by ```.dockerignore```
 .git
 ```
 
+#### Dockerfile Instructions
 
+##### FROM
+
+Tells the Docker which Image to build from.
+
+Every valid Dockerfile must start with ```FROM```
+
+```bash
+FROM <image>[:<tag>] [AS <name>]
+FROM <image>[@digest] [AS <name>]
+```
+
+##### WORKDIR
+
+Works like ```cd``` in ```bash```, but ```WORKDIR``` is set as ```/``` by default.
+
+Sets the current working directory for ```RUN```, ```CMD```, ```ENTRYPOINT```, ```COPY``` and ```ADD```.
+
+```WORKDIR``` can be set multiple times in a Dockerfile and, if a relative directory succeeds a previous ```WORKDIR``` instruction, it will be relative to the previously set working directory.
+
+```bash
+WORKDIR <dir>
+```
+
+Notice that we did not set any absolute working directory in the Dockerfile. The relative directories were appended to the default.
+
+##### ADD & COPY
+
+##### RUN
+
+##### CMD & ENTRYPOINT
+
+##### ENV
+
+##### VOLUME
+
+##### EXPOSE
+
+##### LABEL
+
+Adds metadata to an image as a key/value pair.
+
+```bash
+LABEL <key1>=<value1> <key2>=<value2> ...
+```
+
+- Key
+
+- Value
+
+  Label values can contain any data type that can be represented as string, including `JSON`, `XML`, ```YAML```, and `CSV`.
+
+#### Dockerfiles Guidelines
+
+- Containers should be ephemeral
+
+  we should be able stop, destroy, and restart the container at any point with minimal setup and
+  configuration to the container.
+
+- Keep the build context minimal
+
+  This can be done by using the ```.dockerignore``` file effectively.
+
+- Use multi-stage builds
+
+- Skip unwanted packages
+
+- Minimize the number of layers
+
+  As of Docker 1.10 and above, only ```RUN```, ```COPY```, and ```ADD``` instructions create layers.
+
+#### Multi-Stage Builds (ver. 17.05+)
+
+Especially useful for building images of applications that require some additional build-time dependencies but are not needed during runtime.
+
+With multi-stage builds, a single Dockerfile can be leveraged for build and deploy images—the build images can contain the build tools required for generating the binary or the artifact and in the second stage, the artifact can be copied to the runtime image, thereby reducing considerably the size of the runtime image.
 
 
 
