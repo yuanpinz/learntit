@@ -9,9 +9,9 @@
 
 ## Notes
 
-[Jargon around Docker](### Jargon around Docker)
+[Jargon around Docker](###jargon-around-docker)
 
-[Hands-on Docker](### Hands-on Docker)
+[Hands-on Docker](###hands-on-docker)
 
 ### Jargon around Docker
 
