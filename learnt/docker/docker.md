@@ -95,6 +95,23 @@ Docker Machine allows you to  create Docker hosts on local as well remote system
 
 ### Hands-on Docker
 
+#### List of commands
+
+- general command
+  - [docker info](#hello-world)
+  - [docker pull](#pull-an-image)
+  - [docker run](#run-an-image)
+- Containers
+  - [list containers](#list-containers)
+  - [stop/kill containers](#stopkill-a-container)
+  - [remove containers](Remove containers)
+- Images
+  - [docker image ls](#remove-images)
+  - [docker image inspect](#hello-world)
+  - [remove images](#remove-images)
+
+#### Hello world
+
 ```bash
 # print docker info
 docker info
@@ -102,5 +119,87 @@ docker info
 docker run --rm hello-world
 # list images
 docker image ls
+# see more info of the hello-world image, jq is required
+docker image inspect hello-world
+docker image inspect hello-world | jq .[].Config.Env
+docker image inspect hello-world | jq .[].Config.Cmd
+docker image inspect hello-world | jq .[].RootFS.Layers
+```
+
+#### Working with a Real-World Docker Image
+
+##### Pull an image
+
+```bash
+docker pull nginx						# pull the latest version nginx
+docker pull nginx:1.12-alpine-perl		# pull a older version with tag
+docker login <host>:<port>				# login to private registry
+docker pull <host>:<port>/<image>  		# pull from private registry
+```
+
+##### Run an image
+
+```bash
+docker run -p 8080:80 nginx	# -p <host machine port>:<container exposed port> flag publish the exposed port from container to host
+```
+
+Check the nginx server at another terminal
+
+```bash
+# check localhost
+curl http://localhost:8080
+# check container port
+docker image inspect nginx | jq .[].Config.ExposedPorts
+```
+
+##### List containers
+
+```bash
+docker ps		# list running containers
+docker ps -a 	# list all containers
+```
+
+Results:
+
+```bash
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                   NAMES
+371d946f9aed   nginx     "/docker-entrypoint.…"   43 seconds ago   Up 42 seconds   0.0.0.0:8080->80/tcp, :::8080->80/tcp   ecstatic_moser
+```
+
+Note that we can use ```-n <name>``` to provide a name when starting a container.
+
+##### Stop/Kill a container
+
+```bash
+docker stop <container-id>	# stop a container
+docker kill <container-id>	# force stop and kill the container
+```
+
+##### Remove containers
+
+```bash
+docker rm <container-id>
+```
+
+##### Remove images
+
+Check image id
+
+```bash
+docker image ls		# list all images
+```
+
+Results
+
+```bash
+REPOSITORY        TAG                             IMAGE ID       CREATED         SIZE
+nginx             latest                          dd34e67e3371   2 weeks ago     133MB
+nginx             1.12-alpine-perl                b6a456f1d7ae   3 years ago     57.7MB
+```
+
+Remove images
+
+```bash
+docker rmi <image-id>
 ```
 
