@@ -258,15 +258,69 @@ Notice that we did not set any absolute working directory in the Dockerfile. The
 
 ##### ADD & COPY
 
+
+
+
+
 ##### RUN
+
+Execute any commands in a new layer on top of the current image and create a new layer that is available for the next steps
+
+```bash
+RUN <command>										# the shell form
+RUN ["executable", "parameter 1", " parameter 2"]	# the exec form
+```
+
+
+
+
 
 ##### CMD & ENTRYPOINT
 
+
+
+
+
 ##### ENV
 
-##### VOLUME
+Sets the environment variables to the image.
+
+The environment variables set are **persisted** through the container runtime. They can be viewed using `docker inspect`.
+
+```bash
+ENV <key> <value>		# the entire string after <key> will be considered the value
+ENV <key>=<value> ...
+```
+
+The environment variables defined for a container can be **changed** when running a container by 
+
+ ````bash
+ docker run -e <key>=<value> <image>
+ ````
+
+##### [VOLUME](#docker-volumes)
+
+Tells Docker to create a directory on the host and mount it to a path specified in the instruction.
+
+```bash
+VOLUME <dir>
+```
 
 ##### EXPOSE
+
+Tells Docker that the container listens for the specified network ports at runtime. If it’s not specified, Docker assumes the protocol to be TCP
+
+```bash
+EXPOSE <port> [<port>/<protocol>]
+```
+
+For example
+
+```bash
+# expose port 53 on TCP and UDP
+EXPOSE 53/tcp
+EXPOSE 53/udp
+```
 
 ##### LABEL
 
@@ -277,6 +331,11 @@ LABEL <key1>=<value1> <key2>=<value2> ...
 ```
 
 - Key
+
+  - keys should begin and end with lowercase letters
+  - keys only allow `[a-z0-9]`, periods `.`, hyphens `-`. Consecutive hyphens or periods are not allowed
+  - Authors of **third-party tools** should prefix each key with reverse DNS notaion of a domain owned by them. For example, `com.sathyasays.my-image`
+  - Reserved by Docker: `com.docker.*`, `io.docker.*`, `org.dockerporject.*`
 
 - Value
 
@@ -291,7 +350,7 @@ LABEL <key1>=<value1> <key2>=<value2> ...
 
 - Keep the build context minimal
 
-  This can be done by using the ```.dockerignore``` file effectively.
+  This can be done by using the `.dockerignore` file effectively.
 
 - Use multi-stage builds
 
@@ -299,7 +358,7 @@ LABEL <key1>=<value1> <key2>=<value2> ...
 
 - Minimize the number of layers
 
-  As of Docker 1.10 and above, only ```RUN```, ```COPY```, and ```ADD``` instructions create layers.
+  As of Docker 1.10 and above, only `RUN`, `COPY`, and `ADD` instructions create layers.
 
 #### Multi-Stage Builds (ver. 17.05+)
 
@@ -307,9 +366,9 @@ Especially useful for building images of applications that require some addition
 
 With multi-stage builds, a single Dockerfile can be leveraged for build and deploy images—the build images can contain the build tools required for generating the binary or the artifact and in the second stage, the artifact can be copied to the runtime image, thereby reducing considerably the size of the runtime image.
 
-
-
 ### Docker Volumes
+
+
 
 ### Docker Networks
 
