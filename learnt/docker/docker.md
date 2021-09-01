@@ -9,9 +9,9 @@
 
 ## Notes
 
-[Jargon around Docker](###jargon-around-docker)
+[Jargon around Docker](#jargon-around-docker)
 
-[Hands-on Docker](###hands-on-docker)
+[Hands-on Docker](#hands-on-docker)
 
 ### Jargon around Docker
 
@@ -94,3 +94,13 @@ The most common use case for Docker Compose is to run applications  and their de
 Docker Machine allows you to  create Docker hosts on local as well remote systems, including on cloud  platforms like Amazon Web Services, DigitalOcean, and Microsoft Azure
 
 ### Hands-on Docker
+
+```bash
+# print docker info
+docker info
+# run hello world
+docker run --rm hello-world
+# list images
+docker image ls
+```
+
