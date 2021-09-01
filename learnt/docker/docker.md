@@ -10,7 +10,6 @@
 ## Notes
 
 - [Jargon around Docker](#jargon-around-docker)
-
 - [Docker Basics](#docker-basics)
 - [Dockerfile](#dockerfile)
 - [Docker Volumes](#docker-volumes)
