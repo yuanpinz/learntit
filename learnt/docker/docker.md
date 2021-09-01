@@ -9,6 +9,8 @@
 
 ## Notes
 
+[TOC]
+
 ### Jargon around Docker
 
 #### Layers
