@@ -36,15 +36,11 @@ Li X C, Zhan D C, Yang J Q, et al. Deep multiple instance selection[J]. **Scienc
 
 Møllersen K, Hardeberg J Y, Godtliebsen F. A Probabilistic Bag-to-Class Approach to Multiple-Instance Learning[J]. **Data**, 2020, 5(2): 56. [[paper]](https://www.mdpi.com/2306-5729/5/2/56/htm)
 
-
-
 Fu Z, Robles-Kelly A, Zhou J. MILIS: Multiple instance learning with instance selection[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2010, 33(5): 958-977. [[paper]](https://d1wqtxts1xzle7.cloudfront.net/44558895/MILIS_multiple_instance_learning_with_in20160408-10278-9bjmtq.pdf?1460180255=&response-content-disposition=inline%3B+filename%3DMILIS_Multiple_instance_learning_with_in.pdf&Expires=1629259805&Signature=Y24EsDXo84CvX~QYkIUqwqgvIRrPO4uLuE76RTPB0zAb9t1Ts6GBdk45V9m56EdRflS6vImYNRRxUgmgyihUBMQZ5S-lkdqQ74VmPu1BCackLJOCBq4p4AjGc8FrADieY7TkDcQcyi4hzGj88k83rYMCEvjBKV3p5oX1r0-2al2uXgegCnqAonepxRXIqqeZGIUHSUagIU~Hj6AEfYWGWN1vkAXZpacIVBF-mghZmaktheZEvPYFIn5P1vE~TrYcQm6xTi5a-Be2GQaS5nH1vXHsa0btvMYaiTrzP99qHgxA9f6Mj-e--SRo774xZy-OZkPiScU3zYPNpIhttiS1MA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
 
 Carbonneau M A, Granger E, Raymond A J, et al. Robust multiple-instance learning ensembles using random subspace instance selection[J]. Pattern recognition, 2016, 58: 83-99. [[paper]](https://www.etsmtl.ca/getattachment/Unites-de-recherche/LIVIA/Recherche-et-innovation/Publications/Publications-2016/Carbonneau-et-al----2016---Robust-Multiple-Instance-Learning-Ensembles-Using-Random-Subspace-Instance-Selection(2).pdf)
 
 Zhao Y, Yang F, Fang Y, et al. Predicting lymph node metastasis using histopathological images based on multiple instance learning with deep graph convolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020: 4837-4846. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Predicting_Lymph_Node_Metastasis_Using_Histopathological_Images_Based_on_Multiple_CVPR_2020_paper.pdf)
-
-
 
 
 
@@ -84,6 +80,28 @@ Zhao Y, Yang F, Fang Y, et al. Predicting lymph node metastasis using histopatho
 #### GNN MIL[^7]
 
 #### Dual-stream MIL[^10]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
