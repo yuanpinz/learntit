@@ -2,10 +2,9 @@
 
 ## Resources
 
-### Books
+**Online resources**: [Docker Docs](https://docs.docker.com/)
 
-- Docker in Practice
-- Practical Docker with Python
+**Books**: Docker in Practice, Practical Docker with Python
 
 ## Notes
 

@@ -12,13 +12,13 @@
 
 ### Machine Learning
 
-[COUNT BAYESIE](https://www.countbayesie.com/)
+[Count Bayesie](https://www.countbayesie.com/)
 
 ### Reading Group
 
 [The Learning on Graphs and Geometry Reading Group](https://hannes-stark.com/logag-reading-group)
 
-### Tools for Research
+### Research Tools
 
 [Connected Papers](https://www.connectedpapers.com/), [Paper with Code](https://paperswithcode.com/)
 
@@ -79,6 +79,17 @@
 
 - Lu M Y, Chen T Y, Williamson D F K, et al. AI-based pathology predicts origins for cancers of unknown primary[J]. Nature, 2021, 594(7861): 106-110. [[paper]](https://www.nature.com/articles/s41586-021-03512-4) [[notes]](./learnt/paper-reading/AI-based-pathology-predicts-origins-for-cancers-of-unknown-primary.md) 
 
+## Open Datasets
+
+**Image Classification**: [ImageNet](https://image-net.org/download)
+
+**Wav2Lip**: [LRS2](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html)
+
+**Anomaly Detection**: [UCF-Crime](https://www.crcv.ucf.edu/projects/real-world/), [ShanghaiTech Campus](https://svip-lab.github.io/dataset/campus_dataset.html)
+
+**Histopathology**: [CAMELYON16](https://camelyon16.grand-challenge.org/Data/), [CAMELYON17](https://camelyon17.grand-challenge.org/Data/)
+
+**MIL**: [[Musk1, Musk2, Tiger, Elephant, Fox]](http://www.uco.es/grupos/kdis/momil/), [UCSB-Breast-Cancer](https://bioimage.ucsb.edu/research/bio-segmentation), [Messidor Dataset](https://www.adcis.net/en/third-party/messidor/), [CRCHistoPhenotypes](https://warwick.ac.uk/fac/cross_fac/tia/data/crchistolabelednucleihe/)
 
 ## My Goals
 
