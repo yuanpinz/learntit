@@ -1,4 +1,4 @@
-## Learnt it, take notes and share it
+# Learnt it, take notes and share it
 
 ## Super Helpful Websites
 
