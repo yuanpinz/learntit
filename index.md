@@ -14,10 +14,6 @@
 
 [Count Bayesie](https://www.countbayesie.com/)
 
-### Reading Group
-
-[The Learning on Graphs and Geometry Reading Group](https://hannes-stark.com/logag-reading-group)
-
 ### Research Tools
 
 [Connected Papers](https://www.connectedpapers.com/), [Paper with Code](https://paperswithcode.com/)
@@ -47,6 +43,7 @@
 - Vim [[note]](./learnt/vim/vim.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/vim)
 - Docker [[note]](./learnt/docker/docker.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/docker)
 - LaTeX [[note]](./learnt/latex/latex.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/latex)
+- Shell  [[notes]](./learnt/shell/shell.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/shell)
 
 ## Machine Learning
 
@@ -54,7 +51,7 @@
 
 - Scikit-learn
 - Scikit-image
-- SciPy
+- SciPy [[notes]](./learnt/scipy/scipy.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/scipy)
 - Pandas [[notes]](./learnt/pandas/pandas.md)  [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/pandas)
 - TensorFlow2 and PyTorch [[notes]](./learnt/dl-libraries/tf2.md)  [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/dl-libraries)
 
