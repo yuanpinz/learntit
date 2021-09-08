@@ -42,10 +42,11 @@
 
 #### Tools
 
-- SSH [[note]](./learnt/ssh/ssh-notes.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/ssh)
-- Git & Github
+- SSH [[note]](./learnt/ssh/ssh.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/ssh)
+- Git & Github [[note]](./learnt/git/git.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/git)
 - Vim [[note]](./learnt/vim/vim.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/vim)
 - Docker [[note]](./learnt/docker/docker.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/docker)
+- LaTeX [[note]](./learnt/latex/latex.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/latex)
 
 ## Machine Learning
 
