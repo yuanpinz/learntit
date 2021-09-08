@@ -22,13 +22,118 @@ An **image** is a read-only template with instructions for creating a Docker *co
 
 **Volumes** are stored in a part of the host filesystem which is *managed by Docker* (`/var/lib/docker/volumes/` on Linux). **Bind mounts** may be stored *anywhere* on the host system. **tmpfs mounts** are stored in the host system’s memory only, and are never written to the host system’s filesystem.
 
-### Docker Run
+### [Docker Run](https://docs.docker.com/engine/reference/commandline/run/)
 
-https://docs.docker.com/engine/reference/commandline/run/
+```bash
+docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+```
+
+The `docker run` command first `creates` a **writeable container layer over the specified image**, and then `starts` it using the specified command. A stopped container can be **restarted with all its previous changes** intact using `docker start`. See `docker ps -a` to view a **list of all containers**.
+
+| Name, shorthand        | Default | Description                                        |
+| ---------------------- | ------- | -------------------------------------------------- |
+| `--interactive` , `-i` |         | Keep STDIN open even if not attached               |
+| `--tty` , `-t`         |         | Allocate a pseudo-TTY                              |
+| `--name`               |         | Assign a name to the container                     |
+| `--privileged`         |         | Give extended privileges to this container         |
+| `--workdir` , `-w`     |         | Working directory inside the container             |
+| `--mount`              |         | Attach a filesystem mount to the container         |
+| `--publish` , `-p`     |         | Publish a container's port(s) to the host          |
+| `--detach` , `-d`      |         | Run container in background and print container ID |
+
+#### Examples
+
+**Assign name and allocate pseudo-TTY (--name, -it)**
+
+```bash
+docker run --name test -it debian
+```
+
+**Full container capabilities (--privileged)**
+
+```bash
+docker run -t -i --privileged ubuntu bash
+```
+
+**Set working directory (-w)**
+
+```bash
+docker  run -w /path/to/dir/ -i -t  ubuntu pwd
+```
+
+**Mount tmpfs (--tmpfs)**
+
+```bash
+docker run -d --tmpfs /run:rw,noexec,nosuid,size=65536k my_image
+```
+
+**Mount volume (-v, --read-only)**
+
+```bash
+docker  run  -v `pwd`:`pwd` -w `pwd` -i -t  ubuntu pwd
+```
+
+**Add bind mounts or volumes using the --mount flag**
+
+```bash
+docker run --read-only --mount type=volume,target=/icanwrite busybox touch /icanwrite/here
+```
+
+```bash
+docker run -t -i --mount type=bind,src=/data,dst=/data busybox sh
+```
+
+**Publish or expose port (-p, --expose)**
+
+This binds port `8080` of the container to TCP port `80` on `127.0.0.1` of the host machine. Note that ports which are not bound to the host (i.e., `-p 80:80` instead of `-p 127.0.0.1:80:80`) will be accessible from the outside.
+
+```bash
+docker run -p 127.0.0.1:80:8080/tcp ubuntu bash
+```
+
+This exposes port `80` of the container without publishing the port to the host system’s interfaces.
+
+```bash
+docker run --expose 80 ubuntu bash
+```
+
+### [Docker Commit](https://docs.docker.com/engine/reference/commandline/commit/)
+
+```bash
+docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+```
+
+#### Options
+
+| Name, shorthand    | Default | Description                                                |
+| ------------------ | ------- | ---------------------------------------------------------- |
+| `--author` , `-a`  |         | Author (e.g., "John Hannibal Smith <hannibal@a-team.com>") |
+| `--change` , `-c`  |         | Apply Dockerfile instruction to the created image          |
+| `--message` , `-m` |         | Commit message                                             |
+| `--pause` , `-p`   | `true`  | Pause container during commit                              |
+
+#### Examples
+
+**Commit a container**
+
+```bash
+docker ps
+docker commit c3f279d17e0a  svendowideit/testimage:version3
+docker images
+```
+
+**Commit a container with new `CMD` and `EXPOSE` instructions**
+
+```bash
+docker ps
+docker commit --change='CMD ["apachectl", "-DFOREGROUND"]' -c "EXPOSE 80" c3f279d17e0a  svendowideit/testimage:version4
+docker run -d svendowideit/testimage:version4
+docker ps
+```
 
 ### Dockerfile
 
-https://docs.docker.com/engine/reference/builder/
+[Reference](https://docs.docker.com/engine/reference/builder/), [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
 
 
