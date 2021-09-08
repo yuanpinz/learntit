@@ -8,6 +8,40 @@
 
 ## Notes
 
+### Docker Architecture
+
+![docker architecture](imgs/architecture.svg)
+
+Docker uses a **client-server** architecture. The **Docker daemon** `dockerd` listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. The **Docker client** `docker`  sends these commands to `dockerd`. A **Docker registry** stores *Docker images*.
+
+An **image** is a read-only template with instructions for creating a Docker *container*. A **container** is a runnable instance of an image.
+
+### Manage data in Docker
+
+![](imgs/types-of-mounts.png)
+
+**Volumes** are stored in a part of the host filesystem which is *managed by Docker* (`/var/lib/docker/volumes/` on Linux). **Bind mounts** may be stored *anywhere* on the host system. **tmpfs mounts** are stored in the host system’s memory only, and are never written to the host system’s filesystem.
+
+### Docker Run
+
+https://docs.docker.com/engine/reference/commandline/run/
+
+### Dockerfile
+
+https://docs.docker.com/engine/reference/builder/
+
+
+
+
+
+
+
+
+
+
+
+## Practical Docker with Python Notes
+
 - [Jargon around Docker](#jargon-around-docker)
 - [Docker Basics](#docker-basics)
 - [Dockerfile](#dockerfile)

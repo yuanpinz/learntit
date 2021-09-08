@@ -2,7 +2,10 @@
 
 ## Resources
 
-Pro Bash Programming
+**Book**: Pro Bash Programming
 
 ## Notes
 
+### Parameters and Variables
+
+​	
