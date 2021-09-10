@@ -38,12 +38,12 @@
 
 #### Tools
 
-- SSH [[note]](./learnt/ssh/ssh.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/ssh)
-- Git & Github [[note]](./learnt/git/git.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/git)
-- Vim [[note]](./learnt/vim/vim.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/vim)
-- Docker [[note]](./learnt/docker/docker.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/docker)
-- [LaTeX ](https://github.com/yuanpinz/learntit/tree/main/learnt/latex) [[install&config]](./learnt/latex/latex.md)
-- Shell  [[notes]](./learnt/shell/shell.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/shell)
+- [SSH](https://github.com/yuanpinz/learntit/tree/main/learnt/ssh) [[note]](./learnt/ssh/ssh.md) 
+- [Git & Github](https://github.com/yuanpinz/learntit/tree/main/learnt/git) [[note]](./learnt/git/git.md) 
+- [Vim](https://github.com/yuanpinz/learntit/tree/main/learnt/vim) [[note]](./learnt/vim/vim.md) 
+- [Docker](https://github.com/yuanpinz/learntit/tree/main/learnt/docker) [[note]](./learnt/docker/docker.md)
+- [LaTeX ](https://github.com/yuanpinz/learntit/tree/main/learnt/latex) [[install&config]](./learnt/latex/latex-install.md)
+- [Shell](https://github.com/yuanpinz/learntit/tree/main/learnt/shell)  [[notes]](./learnt/shell/shell.md)
 
 ## Machine Learning
 
@@ -51,9 +51,9 @@
 
 - Scikit-learn
 - Scikit-image
-- SciPy [[notes]](./learnt/scipy/scipy.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/scipy)
-- Pandas [[notes]](./learnt/pandas/pandas.md)  [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/pandas)
-- TensorFlow2 and PyTorch [[notes]](./learnt/dl-libraries/tf2.md)  [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/dl-libraries)
+- [SciPy](https://github.com/yuanpinz/learntit/tree/main/learnt/scipy) [[notes]](./learnt/scipy/scipy.md) 
+- [Pandas](https://github.com/yuanpinz/learntit/tree/main/learnt/pandas) [[notes]](./learnt/pandas/pandas.md) 
+- [TensorFlow2 and PyTorch](https://github.com/yuanpinz/learntit/tree/main/learnt/dl-libraries) [[notes]](./learnt/dl-libraries/tf2.md) 
 
 ### Tools
 
@@ -63,17 +63,17 @@
 
 ### Topics
 
-- Self-supervised GANs [[notes]](./learnt/self-supervised-gans/self-supervised-gans.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/self-supervised-gans)
-- Semi-supervised Learning [[notes]](./learnt/semi-supervised-learning/semi-supervised-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/semi-supervised-learning)
-- Knowledge Distillation [[notes]](./learnt/knowledge-distillation/knowledge-distillation.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/knowledge-distillation)
-- Class Imbalanced Learning [[notes]](./learnt/class-imbalanced-learning/class-imbalanced-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/class-imbalanced-learning)
-- Noisy Labels [[notes]](./learnt/noisy-labels/noisy-labels.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/noisy-labels)
-- Deep Learning Memorization Effect [[notes]](./learnt/dl-memorization-effect/dl-memorization-effect.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/dl-memorization-effect)
-- Multi-instance Learning [[notes]](./learnt/multi-instance-learning/multi-instance-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/multi-instance-learning)
-- Multi-task Learning [[notes]](./learnt/multi-task-learning/multi-task-learning.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/multi-task-learning)
-- Segmentation Loss [[notes]](./learnt/segmentation-loss/segmentation-loss.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/segmentation-loss)
+- [Self-supervised GANs](https://github.com/yuanpinz/learntit/tree/main/learnt/self-supervised-gans) [[notes]](./learnt/self-supervised-gans/self-supervised-gans.md)
+- [Semi-supervised Learning](https://github.com/yuanpinz/learntit/tree/main/learnt/semi-supervised-learning) [[notes]](./learnt/semi-supervised-learning/semi-supervised-learning.md) 
+- [Knowledge Distillation](https://github.com/yuanpinz/learntit/tree/main/learnt/knowledge-distillation) [[notes]](./learnt/knowledge-distillation/knowledge-distillation.md)
+- [Class Imbalanced Learning](https://github.com/yuanpinz/learntit/tree/main/learnt/class-imbalanced-learning) [[notes]](./learnt/class-imbalanced-learning/class-imbalanced-learning.md) 
+- [Noisy Labels](https://github.com/yuanpinz/learntit/tree/main/learnt/noisy-labels) [[notes]](./learnt/noisy-labels/noisy-labels.md) 
+- [Deep Learning Memorization Effect](https://github.com/yuanpinz/learntit/tree/main/learnt/dl-memorization-effect) [[notes]](./learnt/dl-memorization-effect/dl-memorization-effect.md) 
+- [Multi-instance Learning](https://github.com/yuanpinz/learntit/tree/main/learnt/multi-instance-learning) [[notes]](./learnt/multi-instance-learning/multi-instance-learning.md) 
+- [Multi-task Learning](https://github.com/yuanpinz/learntit/tree/main/learnt/multi-task-learning) [[notes]](./learnt/multi-task-learning/multi-task-learning.md) 
+- [Segmentation Loss](https://github.com/yuanpinz/learntit/tree/main/learnt/segmentation-loss) [[notes]](./learnt/segmentation-loss/segmentation-loss.md) 
 
-## Paper-Reading[[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/paper-reading/)
+## [Paper-Reading](https://github.com/yuanpinz/learntit/tree/main/learnt/paper-reading/)
 
 - Lu M Y, Chen T Y, Williamson D F K, et al. AI-based pathology predicts origins for cancers of unknown primary[J]. Nature, 2021, 594(7861): 106-110. [[paper]](https://www.nature.com/articles/s41586-021-03512-4) [[notes]](./learnt/paper-reading/AI-based-pathology-predicts-origins-for-cancers-of-unknown-primary.md) 
 
