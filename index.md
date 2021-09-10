@@ -1,8 +1,10 @@
 # Learnt it, take notes and share it
 
+>  [Your Daily(or maybe monthly) Dose of ML]((./learnt/your-daily-dose-of-ml/your-daily-dose-of-ml.md) )
+
 ## Super Helpful Websites
 
-### AI Blogs
+### Machine Learning
 
 [Google AI Blog](https://ai.googleblog.com/), [DeepMind](https://deepmind.com/blog), [OpenAI](https://openai.com/blog/)
 
@@ -10,7 +12,7 @@
 
 [Distill](https://distill.pub/), [Jay Alammar](https://jalammar.github.io/)
 
-### Machine Learning
+[r/MachineLearning](https://www.reddit.com/r/MachineLearning)
 
 [Count Bayesie](https://www.countbayesie.com/)
 
