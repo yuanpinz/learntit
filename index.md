@@ -1,6 +1,6 @@
 # Learnt it, take notes and share it
 
->  [Your Daily(or maybe monthly) Dose of ML]((./learnt/your-daily-dose-of-ml/your-daily-dose-of-ml.md) )
+[***Your Daily(or maybe monthly) Dose of ML***]((./learnt/your-daily-dose-of-ml/your-daily-dose-of-ml.md) )
 
 ## Super Helpful Websites
 
