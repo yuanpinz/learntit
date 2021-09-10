@@ -22,7 +22,9 @@ An **image** is a read-only template with instructions for creating a Docker *co
 
 **Volumes** are stored in a part of the host filesystem which is *managed by Docker* (`/var/lib/docker/volumes/` on Linux). **Bind mounts** may be stored *anywhere* on the host system. **tmpfs mounts** are stored in the host system’s memory only, and are never written to the host system’s filesystem.
 
-### [Docker Run](https://docs.docker.com/engine/reference/commandline/run/)
+### Docker Run
+
+[Doc](https://docs.docker.com/engine/reference/commandline/run/)
 
 ```bash
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
@@ -97,7 +99,9 @@ This exposes port `80` of the container without publishing the port to the host 
 docker run --expose 80 ubuntu bash
 ```
 
-### [Docker Commit](https://docs.docker.com/engine/reference/commandline/commit/)
+### Docker Commit
+
+[Doc](https://docs.docker.com/engine/reference/commandline/commit/)
 
 ```bash
 docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
@@ -135,11 +139,69 @@ docker ps
 
 [Reference](https://docs.docker.com/engine/reference/builder/), [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
+#### Docker Build
 
+The [docker build](https://docs.docker.com/engine/reference/commandline/build/) command builds an image from a `Dockerfile` and a *context*. The build’s context is the set of files at a specified location `PATH` or `URL`.
 
+#### Dockerfile Format
 
+```dockerfile
+# Comment
+INSTRUCTION arguments
+```
 
+A `Dockerfile` **must begin with a `FROM` instruction**. This may be after [parser directives](https://docs.docker.com/engine/reference/builder/#parser-directives), [comments](https://docs.docker.com/engine/reference/builder/#format), and globally scoped [ARGs](https://docs.docker.com/engine/reference/builder/#arg).  
 
+#### `.dockerignore` file
+
+Here is an example `.dockerignore` file:
+
+```gitignore
+# comment
+*/temp*
+*/*/temp*
+temp?
+```
+
+| Rule        | Behavior                                                     |
+| :---------- | :----------------------------------------------------------- |
+| `# comment` | Ignored.                                                     |
+| `*/temp*`   | Exclude files and directories whose names start with `temp` in any immediate subdirectory of the root. For example, the plain file `/somedir/temporary.txt` is excluded, as is the directory `/somedir/temp`. |
+| `*/*/temp*` | Exclude files and directories starting with `temp` from any subdirectory that is two levels below the root. For example, `/somedir/subdir/temporary.txt` is excluded. |
+| `temp?`     | Exclude files and directories in the root directory whose names are a one-character extension of `temp`. For example, `/tempa` and `/tempb` are excluded. |
+
+#### FROM
+
+```dockerfile
+FROM [--platform=<platform>] <image> [AS <name>]
+```
+
+Or
+
+```dockerfile
+FROM [--platform=<platform>] <image>[:<tag>] [AS <name>]
+```
+
+Or
+
+```dockerfile
+FROM [--platform=<platform>] <image>[@<digest>] [AS <name>]
+```
+
+`ARG` is the only instruction that may precede `FROM` in the `Dockerfile`. An `ARG` declared before a `FROM` is outside of a build stage, so it can’t be used in any instruction after a `FROM`. To use the default value of an `ARG` declared before the first `FROM` use an `ARG` instruction without a value inside of a build stage.
+
+`FROM` can appear multiple times within a single `Dockerfile` to create multiple images or use one build stage as a dependency for another. 
+
+Example:
+
+```dockerfile
+ARG  CODE_VERSION=latest
+FROM base:${CODE_VERSION}
+CMD  /code/run-app
+
+FROM extras:${CODE_VERSION}
+CMD  /code/run-extras
+```
 
 
 

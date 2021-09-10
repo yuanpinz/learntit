@@ -42,7 +42,7 @@
 - Git & Github [[note]](./learnt/git/git.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/git)
 - Vim [[note]](./learnt/vim/vim.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/vim)
 - Docker [[note]](./learnt/docker/docker.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/docker)
-- LaTeX [[note]](./learnt/latex/latex.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/latex)
+- [LaTeX ](https://github.com/yuanpinz/learntit/tree/main/learnt/latex) [[install&config]](./learnt/latex/latex.md)
 - Shell  [[notes]](./learnt/shell/shell.md) [[assets]](https://github.com/yuanpinz/learntit/tree/main/learnt/shell)
 
 ## Machine Learning

@@ -1,12 +1,10 @@
-# LaTeX
+# LaTeX Install & Config [TeXLive + WSL2+ VSCode]
 
-## Installation [TeXLive + WSL2+ VSCode]
-
-### Install TeXLive on WSL2
+## Install TeXLive on WSL2
 
 Check out the official [quick installation instructions](https://www.tug.org/texlive/quickinstall.html).
 
-#### Pre-install
+### Pre-install
 
 ```bash
 # download installation file
@@ -15,14 +13,14 @@ wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 tar -xzvf install-tl-unx.tar.gz
 ```
 
-#### Install
+### Install
 
 ```bash
 cd install-tl-20210907
 sudo ./install-tl
 ```
 
-#### Setting PATH
+### Setting PATH
 
 Open `~/.bashrc`, add the following command to the file
 
@@ -30,7 +28,7 @@ Open `~/.bashrc`, add the following command to the file
 export PATH=/usr/local/texlive/2021/bin/x86_64-linux:$PATH
 ```
 
-#### Testing
+### Testing
 
 Type the following command
 
@@ -58,19 +56,19 @@ Output written on small2e.dvi (1 page, 1864 bytes).
 Transcript written on small2e.log.
 ```
 
-### Use TeXLive in VSCode
+## Use TeXLive in VSCode
 
-Install `LaTeX Workshop` in `MARKETPLACE` then everything is ready if you only use English in writing.
+Install the [LaTeX Workshop extension pack](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) then everything is ready to go.
 
-### TeXLive Configuration with CTeX (for writing Chinese)
+## TeXLive Configuration with CTeX (for writing Chinese)
 
-`CTeX` is bundled with TeXLive, however the default `LaTeX Workshop` Compiler would raise the following error when working with `CTeX`.
+For users who use additional languages like Chinese. `xelatex` is required to compile Unicode in LaTeX. The following error will be raised when compiling using `pdflatex`.
 
 ```bash
 critical package ctex error:ctex fontset"fandol" is unavailable in current
 ```
 
-Hence, we need to setup `xelatex` for compiling.
+However `xelatex` is not in the [LaTeX Workshop extension pack](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) default setting, we need to setup `xelatex` manually.
 
 Firstly, open `VSCode Setting`, search `latex.tools`, click `Edit in setting.json` and append the following setting 
 
