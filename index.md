@@ -43,7 +43,7 @@
 - [SSH](https://github.com/yuanpinz/learntit/tree/main/learnt/ssh) [[note]](./learnt/ssh/ssh.md) 
 - [Git & Github](https://github.com/yuanpinz/learntit/tree/main/learnt/git) [[note]](./learnt/git/git.md) 
 - [Vim](https://github.com/yuanpinz/learntit/tree/main/learnt/vim) [[note]](./learnt/vim/vim.md) 
-- [Docker](https://github.com/yuanpinz/learntit/tree/main/learnt/docker) [[note]](./learnt/docker/docker.md)
+- [Docker](https://github.com/yuanpinz/learntit/tree/main/learnt/docker) [[Docker for Data Scientist]](./learnt/docker/docker-for-data-scientist.md) [[note]](./learnt/docker/docker.md) 
 - [LaTeX ](https://github.com/yuanpinz/learntit/tree/main/learnt/latex) [[install&config]](./learnt/latex/latex-install.md)
 - [Shell](https://github.com/yuanpinz/learntit/tree/main/learnt/shell)  [[notes]](./learnt/shell/shell.md)
 
