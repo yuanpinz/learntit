@@ -12,7 +12,7 @@ With Docker, all these problems solved. Docker have multiple China mirror site. 
 
 ## Using Docker just like Anaconda
 
-Before we start, I assume you already install [Docker](https://docs.docker.com/engine/install/) and [NVIDIA Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html). [VSCode](https://code.visualstudio.com/) is also recommended as your IDE. Make sure platform requirements are satisfied before you install. 
+Note that the following tutorial might not be the best practice of Docker. But it should be the easiest way to use docker to build your own ML environment and develop ML models. `Dockerfile` is not required in the tutorial. Before we start, I assume you already install [Docker](https://docs.docker.com/engine/install/), [NVIDIA Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) and [VSCode](https://code.visualstudio.com/). Make sure platform requirements are satisfied before you install. 
 
 > ### Platform Requirements
 >
@@ -112,8 +112,8 @@ Install `python3` and `jupyter lab` inside pseudo-TTY
 
 ```bash
 $ apt-get update \
-> && apt-get install -y python3 python3-pip \
-> && pip3 install jupyterlab
+&& apt-get install -y python3 python3-pip \
+&& pip3 install jupyterlab
 ```
 
 Run `Jupyter Lab` 
@@ -144,8 +144,7 @@ Data is not recommended to store inside container because once container is remo
 Let's create an example data directory
 
 ```bash
-$ mkdir data_example \
-> && echo 'hello' > data_example/data1
+$ mkdir data_example && echo 'hello' > data_example/data1
 ```
 
 Now mount `~/data_example` to `/data` on the container
@@ -163,8 +162,7 @@ $ cat /data/data1
 Now write new data to `/data` and exit the container
 
 ```bash
-$ echo 'world' > /data/data2 \
-> && exit
+$ echo 'world' > /data/data2 && exit
 ```
 
 Check whether the new data was written on local directory and you should see `world` printed on the  terminal.
@@ -229,20 +227,66 @@ yuanpinz/mymlenv        python3-jupyterlab                      d0666881ff25   6
 nvidia/cuda             11.1.1-cudnn8-devel-ubuntu18.04         3e0ba3c9a1db   5 weeks ago     9.35GB
 ```
 
+### Step 4: What if I Want to Expose/Publish New Ports or Attach Volumes to an Existing Container?
 
+In the previous examples, we exposed/published ports and attached volumes by using `docker run` command with `-p` and `-v` parameters. What if I want to do these to an existing container instead of planning what ports to be exposed/published and which volume to be attached at the very beginning? The answer is simple but not beautiful. You **CAN'T** expose/publish ports or attach volumes other than using `docker run` command. However, you can always `commit` an existing container to image and use the `docker run` command again.
 
-### Step 4: What if I Want to Add Volumes or Expose New Ports to an Existing Container?
+For example, we published `port 8888` for `jupyter lab` previously.
 
-### Step 5: Use VSCode as Your Editor
+```bash
+$ docker run -p 8888:8888 -it nvidia/cuda:11.1.1-cudnn8-devel-ubuntu18.04
+```
 
-[Connect to remote Docker over SSH](https://code.visualstudio.com/docs/containers/ssh)
+Let's say the `CONTAINER ID` of this container is `474a90545899`.
 
+We commit this container to a new Image,
 
+```bash
+$ docker commit 474a90545899 yuanpinz/cuda:port8888
+```
 
+Now we can publish a new `port 6006` for potential use of `tensorboard` by
 
+```bash
+$ docker run -p 6006:6006 -it yuanpinz/cuda:port8888
+```
 
+### Step 5: Push Your Image to Dockerhub
 
+ You can use `Dockerhub` just like `Github` to share or synchronize your Image on the cloud. Note that only one private repository is allowed for the free plan. The [Docker Hub Quickstart](https://docs.docker.com/docker-hub/) will help you publish your own Image on Dockerhub.
 
+##### Example
 
+Firstly, login your Docker Hub account.
+
+```bash
+$ docker login
+```
+
+Secondly, push your Image to Docker Hub
+
+```bash
+$ docker push yuanpinz/cuda:port8888
+```
+
+Now that your Image is uploaded to Docker Hub, you can pull your Image on any other machine
+
+```bash
+$ docker pull yuanpinz/cuda:port8888
+```
+
+### Step 6: Use VSCode to Edit Files Inside Containers
+
+Check this official post by vscode about [Working with containers](https://code.visualstudio.com/docs/containers/overview), if your docker is installed on remote server, read this post [Connect to remote Docker over SSH](https://code.visualstudio.com/docs/containers/ssh) too.
+
+To be simple, all you need to do is to install the [Docker extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) for VSCode. If you're using docker on a remote server, make sure the extension is also installed on the server. To do this, you need to connect to your server through SSH on VSCode and install the extension through Marketplace.
 
 ## A Simple Dockerfile Template For Data Scientist
+
+```dockerfile
+FROM <basic Image>
+RUN <install command to install any packages>
+COPY <path in the host> <path in the container>
+WORKDIR <workdir>
+```
+
