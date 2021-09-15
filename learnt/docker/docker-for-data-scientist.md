@@ -293,23 +293,19 @@ To be simple, all you need to do is to install the [Docker extension](https://ma
 
 **Step 1**. Since I installed Docker on the remote server, I connected to my server through SSH in vscode and installed the Docker extension (You may need to restart vscode after the installation). If your Docker is installed on your local machine, skip the SSH step and installed the extension locally. **Open a workspace. (I don't know why but this is important, otherwise you will get the "*There are no running containers to attach to*" error when you try to attach to a Container later)**. Now you can check your Containers and Images through vscode.
 
-
-
 ![image-20210915152006183](imgs/image-20210915152006183.png)
 
-**Step 2**, run a Container through command line. Note that if you use "Run" or "Run interactive" in the Docker extension. It will run the Container with `--rm` tag which remove the Container once it exit.
+**Step 2**. Run a Container in the background through command line. 
 
 ```bash
-$ docker run -it yuanpinz/dlenv:11.1.1-cudnn8-pytorch1.9.0-pyg2.0.0-devkit
+$ docker run -t -d yuanpinz/dlenv:11.1.1-cudnn8-pytorch1.9.0-pyg2.0.0-devkit
 ```
 
-Or
+`-t` is necessary otherwise the container will stop immediately.
 
-```bash
-$ docker run -d yuanpinz/dlenv:11.1.1-cudnn8-pytorch1.9.0-pyg2.0.0-devkit
-```
+Note that if you use "Run" or "Run interactive" in the Docker extension. It will run the Container with `--rm` tag which remove the Container once it exit.
 
-**Step 3**, attach vscode to the Container. 
+**Step 3**. Attach VSCode to the Container. 
 
 ![image-20210915151010087](imgs/image-20210915151010087.png) 
 
@@ -323,7 +319,7 @@ Install `Python` and `Pylance` extension for programming with Python if it's not
 
 ![image-20210915153057487](imgs/image-20210915153057487.png)
 
-**Step 4**, now everything is ready. VSCode workspace is set to be your `WORKDIR` in the Container. Let's write a "hello world" script. Autocomplete is enabled in VSCode.
+**Step 4**. Now everything is ready. VSCode workspace is set to be your `WORKDIR` in the Container. Let's write a "hello world" script. Autocomplete is enabled in VSCode.
 
 ![image-20210915153506515](imgs/image-20210915153506515.png)
 
