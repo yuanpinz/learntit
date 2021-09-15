@@ -289,6 +289,38 @@ Check this official post by vscode about [Working with containers](https://code.
 
 To be simple, all you need to do is to install the [Docker extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) for VSCode. If you're using docker on a remote server, make sure the extension is also installed on the server. To do this, you need to connect to your server through SSH on VSCode and install the extension through Marketplace.
 
+##### Example
+
+I installed Docker on a remote server named "pvmed".
+
+**Step 1**, I connected to my server through SSH in vscode and installed the Docker extension (You may need to restart vscode after the installation). **Open a workspace. (I don't know why but this is important, otherwise you will get the "*There are no running containers to attach to*" error when you try to attach to a Container later)**. Now you can check your Containers and Images through vscode.
+
+![image-20210915152006183](imgs/image-20210915152006183.png)
+
+**Step 2**, run a Container through command line. Note that if you use "Run" or "Run interactive" in the Docker extension. It will run the Container with `--rm` tag which remove the Container once it exit.
+
+```bash
+$ docker run -it yuanpinz/dlenv:11.1.1-cudnn8-pytorch1.9.0-pyg2.0.0-devkit
+```
+
+Or
+
+```bash
+$ docker run -d yuanpinz/dlenv:11.1.1-cudnn8-pytorch1.9.0-pyg2.0.0-devkit
+```
+
+**Step 3**, attach vscode to the Container. 
+
+![image-20210915151010087](imgs/image-20210915151010087.png) 
+
+![image-20210915152059285](imgs/image-20210915152059285.png)
+
+VSCode will install its server inside the container automatically.
+
+![image-20210915152252448](imgs/image-20210915152252448.png)
+
+
+
 ## A Simple Dockerfile Template For Data Scientist
 
 ```dockerfile
