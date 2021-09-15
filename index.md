@@ -1,5 +1,7 @@
 # Learnt it, take notes and share it
 
+***Join my [Slack Channel](https://join.slack.com/t/learntitworkspace/shared_invite/zt-vttodl2q-ETPgg701mRRcjnS7H7IXsQ) to discuss any topics you are interested in.***
+
 [***Your Daily(or maybe monthly) Dose of ML***](./learnt/your-daily-dose-of-ml/your-daily-dose-of-ml.md)
 
 ## Super Helpful Websites
