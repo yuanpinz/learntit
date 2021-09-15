@@ -2,17 +2,17 @@
 
 ## Why Docker?(Or why not Anaconda?)
 
-Before starting with Docker, you should know there are some other options to build your machine learning (ML) developing environment such as [Anaconda](https://www.anaconda.com/) or [pyenv](https://github.com/pyenv/pyenv). Anaconda is a better choice if you‘re totally new to ML because it's easier to start with. However, there are some reasons bothered me that drove me to switch to Docker:
+Before starting with Docker, you should know there are some other options to build your machine learning (ML) developing environment such as [Anaconda](https://www.anaconda.com/) or [pyenv](https://github.com/pyenv/pyenv). Anaconda is a better choice if you‘re totally new to ML because it's easier to start with. However, there are some problems bothered me that drove me to switch to Docker:
 
-- Anaconda didn't have China mirror site. Installing new package could be painful because of the download speed.
+- Anaconda didn't have any China mirror site. Installing new package could be painful because of the download speed.
 - Although Anaconda is theoretically functional of sharing environment to others, practically it's quite difficult to do that. 
 - Anaconda could take a lot of disk space if you're using multiple virtual environments, even if they're just slightly different.
 
-With Docker, all these problems solved. Docker have multiple China mirror site. It's easy to share environment with Dockerhub or Dockerfile. Docker takes much fewer disk space by its layer mechanism.
+With Docker, all these problems solved. Docker have multiple China mirror sites. It's easy to share environment through Dockerhub or with a Dockerfile. Docker takes much fewer disk space by its layer mechanism.
 
 ## Using Docker just like Anaconda
 
-Note that the following tutorial might not be the best practice of Docker. But it should be the easiest way to use docker to build your own ML environment and develop ML models. `Dockerfile` is not required in the tutorial. Before we start, I assume you already install [Docker](https://docs.docker.com/engine/install/), [NVIDIA Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) and [VSCode](https://code.visualstudio.com/). Make sure platform requirements are satisfied before you install. 
+Note that the following tutorial might not be the best practice of Docker. But it should be the easiest way to use docker to build your own ML environment and develop ML models. `Dockerfile` is not required in this tutorial. Before we start, I assume you already install [Docker](https://docs.docker.com/engine/install/), [NVIDIA Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) and [VSCode](https://code.visualstudio.com/). Make sure platform requirements are satisfied before you install. 
 
 > ### Platform Requirements
 >
@@ -291,9 +291,9 @@ To be simple, all you need to do is to install the [Docker extension](https://ma
 
 ##### Example
 
-I installed Docker on a remote server named "pvmed".
+**Step 1**. Since I installed Docker on the remote server, I connected to my server through SSH in vscode and installed the Docker extension (You may need to restart vscode after the installation). If your Docker is installed on your local machine, skip the SSH step and installed the extension locally. **Open a workspace. (I don't know why but this is important, otherwise you will get the "*There are no running containers to attach to*" error when you try to attach to a Container later)**. Now you can check your Containers and Images through vscode.
 
-**Step 1**, I connected to my server through SSH in vscode and installed the Docker extension (You may need to restart vscode after the installation). **Open a workspace. (I don't know why but this is important, otherwise you will get the "*There are no running containers to attach to*" error when you try to attach to a Container later)**. Now you can check your Containers and Images through vscode.
+
 
 ![image-20210915152006183](imgs/image-20210915152006183.png)
 
