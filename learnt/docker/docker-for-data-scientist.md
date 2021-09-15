@@ -199,6 +199,14 @@ $ docker start -i 474a90545899
 
 - `--interactive` , `-i` attach container's STDIN
 
+#### Open Multiple Terminals in Docker
+
+Now that I have a running Docker Container, can I execute multiple tasks in Docker? Of course! The [docker exec](docker exec) will allow you to run a command in a running container. Let's say I want to open a new terminal of the running container. The command is as simple as
+
+```bash
+$ docker exec -it <CONTAINER> bash
+```
+
 ### Step 3: Commit a Container to a New Image
 
 Let's say we pull a basic `nvidia/cuda` Image and installed `python3` and `Jupyter Lab` on the container. How can we save these changes so that next time we can just run an Image with all these packages installed? The answer is [docker commit](https://docs.docker.com/engine/reference/commandline/commit/)
