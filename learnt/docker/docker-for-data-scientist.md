@@ -319,7 +319,19 @@ VSCode will install its server inside the container automatically.
 
 ![image-20210915152252448](imgs/image-20210915152252448.png)
 
+Install `Python` and `Pylance` extension for programming with Python if it's not installed automatically. Reload might be required.
 
+![image-20210915153057487](imgs/image-20210915153057487.png)
+
+**Step 4**, now everything is ready. VSCode workspace is set to be your `WORKDIR` in the Container. Let's write a "hello world" script. Autocomplete is enabled in VSCode.
+
+![image-20210915153506515](imgs/image-20210915153506515.png)
+
+`Run and Debug` works just like local machine.
+
+![image-20210915153728959](imgs/image-20210915153728959.png)
+
+![image-20210915153938782](imgs/image-20210915153938782.png)
 
 ## A Simple Dockerfile Template For Data Scientist
 
