@@ -4,7 +4,7 @@
 
 ### Google AI: [Revisiting Mask-Head Architectures for Novel Class Instance Segmentation](http://ai.googleblog.com/2021/09/revisiting-mask-head-architectures-for.html)
 
-[[project page]](https://google.github.io/deepmac/) [[paper]](https://arxiv.org/pdf/2104.00613.pdf) 
+[[project page]](https://google.github.io/deepmac/) [[paper]](https://arxiv.org/pdf/2104.00613.pdf) [[partially supervised segmentation paper]](https://arxiv.org/pdf/1711.10370.pdf)
 
 **Keywords**: instance segmentation; partially supervised instance segmentation
 
@@ -15,6 +15,8 @@
 ## 2021.09.09
 
 ### Google AI: [Personalized ASR Models from a Large and Diverse Disordered Speech Dataset](http://ai.googleblog.com/2021/09/personalized-asr-models-from-large-and.html)
+
+[[paper1]](https://www.isca-speech.org/archive/interspeech_2021/macdonald21_interspeech.html) [[paper2]](https://www.isca-speech.org/archive/interspeech_2021/green21_interspeech.html)
 
 **Keywords**: 
 
