@@ -66,7 +66,7 @@
      - **FC1**: $W_1\in\mathbb{R}^{512\times1024}, b_1\in\mathbb{R}^{512}$
      - **FC2**:$W_2\in\mathbb{R}^{512\times512}, b_2\in\mathbb{R}^{512}$
      - $h_k=ReLU(W_2(ReLU(W_1z_k+b_1))+b_2)\in\mathbb{R}^{512}$
-     - $h_{slide,t}\in\R^{512}=\sum{a_{k,t}h_k}$​, $t\in\{1,2\}$​indicates tasks, $a_{k,t}$​​indicates attention​
+     - $h_{slide,t}\in\mathbb{R}^{512}=\sum{a_{k,t}h_k}$​​, $t\in\{1,2\}$​​indicates tasks, $a_{k,t}$​​​indicates attention​
      - $a_{k,t}=\frac{exp\{W_{a,t}(tanh(V_ah_k))\odot sigm(U_ah_k)\}}{\sum_{j=1}^N{exp\{W_{a,t}(tanh(V_ah_j))\odot sigm(U_ah_j)\}}}$​
   
   4. **Late-stage fusion and classification**
