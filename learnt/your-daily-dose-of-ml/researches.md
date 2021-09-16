@@ -30,7 +30,9 @@ With over 1 million utterances, Euphonia’s corpus is one of the largest and mo
 
 ### :star:Google AI: [Discovering Anomalous Data with Self-Supervised Learning](http://ai.googleblog.com/2021/09/discovering-anomalous-data-with-self.html)
 
-**Keywords**: Anomaly detection; self-supervised learning
+[[paper1]](https://arxiv.org/pdf/2011.02578.pdf) [[paper2]](https://arxiv.org/pdf/2104.04015.pdf) [[code]](https://github.com/google-research/deep_representation_one_class)
+
+**Keywords**: Anomaly detection; self-supervised learning; one-class classification
 
 **Summary**:
 
