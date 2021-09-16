@@ -1,4 +1,4 @@
-# Your Daily(or maybe monthly) Dose of ML
+# Machine Learning Researches
 
 ## 2021.09.15
 
