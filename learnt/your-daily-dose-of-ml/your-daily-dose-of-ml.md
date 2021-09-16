@@ -20,8 +20,6 @@
 
 **Keywords**: 
 
-**Related Paper**: 
-
 **Summary**:
 
 ## 2021.09.02
@@ -29,8 +27,6 @@
 ### Google AI: [Discovering Anomalous Data with Self-Supervised Learning](http://ai.googleblog.com/2021/09/discovering-anomalous-data-with-self.html)
 
 **Keywords**: 
-
-**Related Paper**: 
 
 **Summary**:
 
@@ -40,8 +36,6 @@
 
 **Keywords**: 
 
-**Related Paper**: 
-
 **Summary**:
 
 ## 2021.01.05
@@ -50,15 +44,11 @@
 
 **Keywords**: 
 
-**Related Paper**: 
-
 **Summary**:
 
 ### OpenAI: [DALL·E: Creating Images from Text](https://openai.com/blog/dall-e/)
 
 **Keywords**: 
-
-**Related Paper**: 
 
 **Summary**:
 
@@ -67,7 +57,5 @@
 ### OpenAI: [Image GPT](https://openai.com/blog/image-gpt/)
 
 **Keywords**: 
-
-**Related Paper**: 
 
 **Summary**:
