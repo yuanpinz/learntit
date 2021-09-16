@@ -55,26 +55,24 @@
   - considering each WSI as a **collection (known as a bag)** of **smaller image regions (known as instances)**
 
 - **Workflow**
-
   1. **WSI processing**: tissue segmentation and patching
-
+  
   2. **Dimensionality reduction**: patch --> fixed pretrained ResNet50 --> 1024-dimensional feature vector
-
+  
   3. **Multitask attention pooling**
-
+  
      - **Task1: Primary Prediction (18 groups)**, **Task2: Site Prediction(Primary vs Metastatic)**
-
-     - **FC1**: $W_1\in\R^{512\times1024}, b_1\in\R^{512}$​
-     - **FC2**:$W_2\in\R^{512\times512}, b_2\in\R^{512}$​​
-     - $h_k=ReLU(W_2(ReLU(W_1z_k+b_1))+b_2)\in\R^{512}$​
+  
+     - **FC1**: $W_1\in\mathbb{R}^{512\times1024}, b_1\in\mathbb{R}^{512}$
+     - **FC2**:$W_2\in\mathbb{R}^{512\times512}, b_2\in\mathbb{R}^{512}$
+     - $h_k=ReLU(W_2(ReLU(W_1z_k+b_1))+b_2)\in\mathbb{R}^{512}$
      - $h_{slide,t}\in\R^{512}=\sum{a_{k,t}h_k}$​, $t\in\{1,2\}$​indicates tasks, $a_{k,t}$​​indicates attention​
      - $a_{k,t}=\frac{exp\{W_{a,t}(tanh(V_ah_k))\odot sigm(U_ah_k)\}}{\sum_{j=1}^N{exp\{W_{a,t}(tanh(V_ah_j))\odot sigm(U_ah_j)\}}}$​
-
+  
   4. **Late-stage fusion and classification**
-
      - incorporate the biological sex of each patient into the prediction
      - $p_t=softmax(W_{cls,t}concat([h_{slide,t},s])+b_{cls,t})$​
-
+     
   5. **Multi-task Loss**
      - $\mathcal{L}_{total}=c_1\mathcal{L}_{cls,1}+c_2\mathcal{L}_{cls,2}$​
      - $c_1=0.75, c_2=0.25$​ give better performance
