@@ -8,7 +8,9 @@
 
 **Keywords**: instance segmentation; partially supervised instance segmentation
 
-**Summary**: Instance segmentation is an important task to many downstream applications. Collecting large labeled instance segmentation dataset is time consuming. Partially supervised instance segmentation target to tackle the challenge but requires a **stronger form of model generalization** to handle **novel classes not seen at training time**. This paper proposed two easy-to-implement fixes (one training protocol fix, one mask-head architecture fix) based on Mask R-CNN like network that work in tandem to close the gap to fully supervised performance. *While neither of these ingredients have a large impact on the classes for which masks are available during training, employing both leads to significant improvement on novel classes for which masks are not available during training.* In a nutshell, **cropping exclusively to ground true boxes during training** and **using deep hourglass mask heads with 50 or more layers** brought significant performance improvement to unseen classes.
+**Summary**: 
+
+Instance segmentation is an important task to many downstream applications. Collecting large labeled instance segmentation dataset is time consuming. Partially supervised instance segmentation target to tackle the challenge but requires a **stronger form of model generalization** to handle **novel classes not seen at training time**. This paper proposed two easy-to-implement fixes (one training protocol fix, one mask-head architecture fix) based on Mask R-CNN like network that work in tandem to close the gap to fully supervised performance. *While neither of these ingredients have a large impact on the classes for which masks are available during training, employing both leads to significant improvement on novel classes for which masks are not available during training.* In a nutshell, **cropping exclusively to ground true boxes during training** and **using deep hourglass mask heads with 50 or more layers** brought significant performance improvement to unseen classes.
 
 **Comment**: I haven't read the paper yet. I hope there will be more discussion about why these two fix would bring better performance to unseen classes. Otherwise it's just a technical report.
 
@@ -18,15 +20,17 @@
 
 [[paper1]](https://www.isca-speech.org/archive/interspeech_2021/macdonald21_interspeech.html) [[paper2]](https://www.isca-speech.org/archive/interspeech_2021/green21_interspeech.html)
 
-**Keywords**: 
+**Keywords**: Automatic speech recognition (ASR)
 
-**Summary**:
+**Summary**: 
+
+With over 1 million utterances, Euphonia’s corpus is one of the largest and most diversely disordered speech corpora (in terms of disorder types and severities) and has enabled significant advances in ASR accuracy for these types of atypical speech. The results demonstrate the efficacy of personalized ASR models for recognizing a wide range of speech impairments and severities, with potential for making ASR available to a wider population of users.
 
 ## 2021.09.02
 
 ### Google AI: [Discovering Anomalous Data with Self-Supervised Learning](http://ai.googleblog.com/2021/09/discovering-anomalous-data-with-self.html)
 
-**Keywords**: 
+**Keywords**: Anomaly detection
 
 **Summary**:
 
