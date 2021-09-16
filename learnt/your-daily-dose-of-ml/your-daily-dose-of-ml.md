@@ -28,15 +28,15 @@ With over 1 million utterances, Euphonia’s corpus is one of the largest and mo
 
 ## 2021.09.02
 
-### Google AI: [Discovering Anomalous Data with Self-Supervised Learning](http://ai.googleblog.com/2021/09/discovering-anomalous-data-with-self.html)
+### :star:Google AI: [Discovering Anomalous Data with Self-Supervised Learning](http://ai.googleblog.com/2021/09/discovering-anomalous-data-with-self.html)
 
-**Keywords**: Anomaly detection
+**Keywords**: Anomaly detection; self-supervised learning
 
 **Summary**:
 
 ## 2021.05.06
 
-### DeepMind: [Game theory as an engine for large-scale data analysis](https://deepmind.com/blog/article/EigenGame)
+### :star:DeepMind: [Game theory as an engine for large-scale data analysis](https://deepmind.com/blog/article/EigenGame)
 
 **Keywords**: 
 
@@ -44,13 +44,13 @@ With over 1 million utterances, Euphonia’s corpus is one of the largest and mo
 
 ## 2021.01.05
 
-### OpenAI: [CLIP: Connecting Text and Images](https://openai.com/blog/clip/)
+### :star:OpenAI: [CLIP: Connecting Text and Images](https://openai.com/blog/clip/)
 
 **Keywords**: 
 
 **Summary**:
 
-### OpenAI: [DALL·E: Creating Images from Text](https://openai.com/blog/dall-e/)
+### :star:OpenAI: [DALL·E: Creating Images from Text](https://openai.com/blog/dall-e/)
 
 **Keywords**: 
 
@@ -58,7 +58,7 @@ With over 1 million utterances, Euphonia’s corpus is one of the largest and mo
 
 ## 2020.06.17
 
-### OpenAI: [Image GPT](https://openai.com/blog/image-gpt/)
+### :star:OpenAI: [Image GPT](https://openai.com/blog/image-gpt/)
 
 **Keywords**: 
 
