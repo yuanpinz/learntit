@@ -14,3 +14,8 @@
 > 6. **What would you change about your company?** Amazon has some legacy internal tooling (outside AWS) that can be quite painful to work with. I also wish it was easier to use open source. It's certainly possible, but not always as easy as it should be.
 > 7. **What's the remote work policy?** Atm, we are full remote. Starting in January, official policy from the top down is 3 days in, 2 days remote, although that might change.
 > 8. **How's your work life balance?** So far great, but I'm still new. I think the long term answer is good not great. It's better than a startup, but there are big scary deadlines that you need to meet. FYI being a DS is quite a bit better than being a Data Engineer, because you won't be on call.
+
+### r/deeplearning: [TorchVision now has a super flexible feature extraction utility](https://www.reddit.com/r/deeplearning/comments/powk7s/torchvision_now_has_a_super_flexible_feature/)
+
+> [Watch on YouTube](https://www.youtube.com/watch?v=QRQBTkCLpFY)
+
