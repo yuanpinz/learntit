@@ -2,7 +2,7 @@
 
 ### r/MachineLearning: [[Discussion] How to present machine learning projects to domain experts without ML background?](https://www.reddit.com/r/MachineLearning/comments/pph0ak/discussion_how_to_present_machine_learning/)
 
->[Screye](https://www.reddit.com/user/Screye/)·[10h](https://www.reddit.com/r/MachineLearning/comments/pph0ak/discussion_how_to_present_machine_learning/hd4gzdc/?utm_source=reddit&utm_medium=web2x&context=3)
+>[Screye](https://www.reddit.com/user/Screye/)
 >
 >I do thos frequently in my current job. The key is to get them interested in the problen and the solution.
 >
@@ -29,7 +29,7 @@
 
 ### r/datascience: [Any Data Scientists here working for Microsoft or Amazon?](https://www.reddit.com/r/datascience/comments/pp2htw/any_data_scientists_here_working_for_microsoft_or/)
 
-> [leatherarmor](https://www.reddit.com/user/leatherarmor/)·[8h](https://www.reddit.com/r/datascience/comments/pp2htw/any_data_scientists_here_working_for_microsoft_or/hd0ztxf/?utm_source=reddit&utm_medium=web2x&context=3)·*edited 8h*
+> [leatherarmor](https://www.reddit.com/user/leatherarmor/)
 >
 > I joined Amazon as a Data Scientist a few months ago in NYC.
 >
