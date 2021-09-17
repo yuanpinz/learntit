@@ -10,6 +10,16 @@
 
 [[paper]](https://arxiv.org/pdf/2109.03795.pdf)
 
+**Keywords**: representation learning; non-spuriousness; disentanglement 
+
+**Comment**: Too much terminology that I don‘t understand. Mark and read it later.
+
+### Marktechpost: [Israeli Researchers Unveil DeepSIM, a Neural Generative Model for Conditional Image Manipulation Based on a Single Image](https://www.marktechpost.com/2021/09/16/israeli-researchers-unveil-deepsim-a-neural-generative-model-for-conditional-image-manipulation-based-on-a-single-image/)
+
+[[project page]](http://www.vision.huji.ac.il/deepsim/) [[paper]](https://arxiv.org/pdf/2109.06151.pdf) [[code]](https://github.com/eliahuhorwitz/DeepSIM)
+
+**Comment**: Experiment results are astonishing. Mark and read later.
+
 ## 2021.09.15
 
 ### Google AI: [Revisiting Mask-Head Architectures for Novel Class Instance Segmentation](http://ai.googleblog.com/2021/09/revisiting-mask-head-architectures-for.html)
