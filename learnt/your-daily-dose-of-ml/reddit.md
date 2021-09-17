@@ -1,5 +1,32 @@
 # Reddit/r/\<ML Topics\>
 
+### r/MachineLearning: [[Discussion] How to present machine learning projects to domain experts without ML background?](https://www.reddit.com/r/MachineLearning/comments/pph0ak/discussion_how_to_present_machine_learning/)
+
+>[Screye](https://www.reddit.com/user/Screye/)·[10h](https://www.reddit.com/r/MachineLearning/comments/pph0ak/discussion_how_to_present_machine_learning/hd4gzdc/?utm_source=reddit&utm_medium=web2x&context=3)
+>
+>I do thos frequently in my current job. The key is to get them interested in the problen and the solution.
+>
+>At a very high level, first convey these points briefly:
+>
+>1. The use case (what was the user workflow like before)
+>2. The problem or the bottleneck or what you couldnt do before.
+>3. Why and how the problem affects the user workflow (or why should i care )
+>4. Mention that you have solved / addressed / bettered it
+>5. Why no one else has solved it or why it is a hard problem
+>6. So how did we do it ? A laymans menton of what the solution is
+>
+>So now they are hooked. You can now do a deep dive.
+>
+>Ideally a highly archtectural / flowchart of each module in the splution helps set the visual grounding needed to understand a deep technical solution.
+>
+>Then begin the deepdive. Tie every aspect of the deepdive with which module in the flowchart you're in.
+>
+>Lastly, assume your audience knows nothing. This leads to issues with runtime of the presentation. So my solution is to always have hidden faqs and explainer slides ready if needed. Read the room as you go and stop frequently for questions. This way you can keep up a good pace, and slowdown if there are a lot of question or even worse No Questions.
+>
+>Lqstly, qlways have a takeaways slide. After a 1 hr presentation some peoples brains are fried. So you want them to take the main takeaways even if they zoned out at some point. It also makes them feel like they took something awayy from the presentation and makes them more likely to attend future ones.
+>
+>Hope this helps.
+
 ### r/datascience: [Any Data Scientists here working for Microsoft or Amazon?](https://www.reddit.com/r/datascience/comments/pp2htw/any_data_scientists_here_working_for_microsoft_or/)
 
 > [leatherarmor](https://www.reddit.com/user/leatherarmor/)·[8h](https://www.reddit.com/r/datascience/comments/pp2htw/any_data_scientists_here_working_for_microsoft_or/hd0ztxf/?utm_source=reddit&utm_medium=web2x&context=3)·*edited 8h*
