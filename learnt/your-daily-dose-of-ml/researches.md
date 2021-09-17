@@ -52,9 +52,19 @@ With over 1 million utterances, Euphonia’s corpus is one of the largest and mo
 
 [[paper1]](https://arxiv.org/pdf/2011.02578.pdf) [[paper2: CutPaste]](https://arxiv.org/pdf/2104.04015.pdf) [[code]](https://github.com/google-research/deep_representation_one_class)
 
-**Keywords**: Anomaly detection; self-supervised learning; one-class classification
+**Keywords**: anomaly detection; self-supervised learning; one-class classification
 
-**Summary**:
+**Summary**: 
+
+The assumption of anomaly detection or the abstract of the problem one-class classification is that you have a large amount of normal examples and only a few anomalous data. The first paper aims to combine traditional one-class classifier with self-supervised learning for feature extraction. A distribution augmentation (DA) method is proposed to separate outlier from inlier while contrastive learning tend to spread out normal examples uniformly on a sphere.
+
+![](imgs/da.jpg)
+
+The second paper is designed a cut and paste method for self-supervised learning.
+
+![](imgs/cutpaste.gif)
+
+**Comment**: With a fast glance of the blog, the idea of combining one-class classifier with self-learning feature extractor is trivial. The proposed distribution augmentation (DA) to separate outliers from inlier is interesting but lack of persuasion because the situation when both inliers and augmented data are uniformly spread out on a sphere isn't excluded. The second paper is more of an adaptation for defect detection of the first paper.  
 
 ## 2021.05.06
 
