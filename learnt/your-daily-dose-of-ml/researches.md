@@ -1,5 +1,15 @@
 # Machine Learning Researches
 
+## 2021.09.16
+
+### :star:Google AI: [Toward Fast and Accurate Neural Networks for Image Recognition](http://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html)
+
+[[paper1: EfficientNetV2]](https://arxiv.org/pdf/2104.00298.pdf) [[paper2: CoAtNet]](https://arxiv.org/pdf/2106.04803.pdf)
+
+### Synced: [UC Berkeley Uses a Causal Perspective to Formalise the Desiderata for Representation Learning](https://syncedreview.com/2021/09/16/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-105/)
+
+[[paper]](https://arxiv.org/pdf/2109.03795.pdf)
+
 ## 2021.09.15
 
 ### Google AI: [Revisiting Mask-Head Architectures for Novel Class Instance Segmentation](http://ai.googleblog.com/2021/09/revisiting-mask-head-architectures-for.html)
@@ -30,7 +40,7 @@ With over 1 million utterances, Euphonia’s corpus is one of the largest and mo
 
 ### :star:Google AI: [Discovering Anomalous Data with Self-Supervised Learning](http://ai.googleblog.com/2021/09/discovering-anomalous-data-with-self.html)
 
-[[paper1]](https://arxiv.org/pdf/2011.02578.pdf) [[paper2]](https://arxiv.org/pdf/2104.04015.pdf) [[code]](https://github.com/google-research/deep_representation_one_class)
+[[paper1]](https://arxiv.org/pdf/2011.02578.pdf) [[paper2: CutPaste]](https://arxiv.org/pdf/2104.04015.pdf) [[code]](https://github.com/google-research/deep_representation_one_class)
 
 **Keywords**: Anomaly detection; self-supervised learning; one-class classification
 
