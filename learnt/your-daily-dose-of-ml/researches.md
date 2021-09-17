@@ -4,7 +4,11 @@
 
 ### :star:Google AI: [Toward Fast and Accurate Neural Networks for Image Recognition](http://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html)
 
-[[paper1: EfficientNetV2]](https://arxiv.org/pdf/2104.00298.pdf) [[paper2: CoAtNet]](https://arxiv.org/pdf/2106.04803.pdf)
+[[paper1: EfficientNetV2]](https://arxiv.org/pdf/2104.00298.pdf) [[paper2: CoAtNet]](https://arxiv.org/pdf/2106.04803.pdf) [[code]](https://github.com/google/automl)
+
+**Keywords**: neural architecture search;
+
+**Comment**: Super Cool!
 
 ### Synced: [UC Berkeley Uses a Causal Perspective to Formalise the Desiderata for Representation Learning](https://syncedreview.com/2021/09/16/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-105/)
 
