@@ -54,6 +54,26 @@ With over 1 million utterances, Euphonia’s corpus is one of the largest and mo
 
 **Summary**:
 
+## 2021.03.25
+
+### Andrew Ng: [A Chat with Andrew on MLOps: From Model-centric to Data-centric AI](https://www.youtube.com/watch?v=06-AZXmwHjo)
+
+[[slide]](https://www.deeplearning.ai/wp-content/uploads/2021/06/MLOps-From-Model-centric-to-Data-centric-AI.pdf)
+
+**Keywords**: data-centric
+
+**Summary**:
+
+MLOps’ most important task: Ensure consistently high-quality data in all phases of the ML project lifecycle. Good data is: 
+
+- Defined consistently (definition of labels y is unambiguous) • Cover of important cases (good coverage of inputs x) 
+- Has timely feedback from production data (distribution covers data drift and concept drift) 
+- Sized appropriately
+
+![image-20210917110503117](imgs/image-20210917110503117.png)
+
+**Comment**: Like Andrew said in the webinar, we took 80% of time preparing high quality data but only 1% of AI research is about data. It would be more encouraging to see more researches about how data quality affect model performance.
+
 ## 2021.01.05
 
 ### :star:OpenAI: [CLIP: Connecting Text and Images](https://openai.com/blog/clip/)
@@ -75,3 +95,4 @@ With over 1 million utterances, Euphonia’s corpus is one of the largest and mo
 **Keywords**: 
 
 **Summary**:
+
