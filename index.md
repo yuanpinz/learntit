@@ -87,7 +87,7 @@
 
 ### Deep Learning in Medical Imaging
 
-- [Pathology](https://github.com/yuanpinz/learntit/tree/main/learnt/pathology) [[notes]](./learnt/pathology/pathology.md) 
+- [**Pathology**](https://github.com/yuanpinz/learntit/tree/main/learnt/pathology) [[notes]](./learnt/pathology/pathology.md) 
 
 ## [Paper-Reading](https://github.com/yuanpinz/learntit/tree/main/learnt/paper-reading/)
 
