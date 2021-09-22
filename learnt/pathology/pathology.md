@@ -1,18 +1,32 @@
 # Pathology
 
+This article is a sum-up of three surveys of digital pathology image analysis[^1][^2][^3]. I mainly followed the structure of the MIA research[^1] and used the other two[^2][^3] as supplement.
 
 
 
+## Tasks
 
-
+![image-20210922172744898](imgs/image-20210922172744898.png)
 
 ## Dataset
 
 ## Methodology
 
+![image-20210922172310509](imgs/image-20210922172310509.png)
 
+### Supervised Learning
 
+![image-20210922172542275](imgs/image-20210922172542275.png)
 
+### Weekly Supervised Learning
+
+![image-20210922172625620](imgs/image-20210922172625620.png)
+
+### Unsupervised Learning
+
+![image-20210922172648473](imgs/image-20210922172648473.png)
+
+### Transfer Learning
 
 
 
