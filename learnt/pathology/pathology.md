@@ -6,6 +6,14 @@ This article is a sum-up of three surveys of digital pathology image analysis[^1
 
 ## Tasks
 
+#### dfafa {#df}
+
+
+
+
+
+
+
 ![image-20210922172744898](imgs/image-20210922172744898.png)
 
 ## Dataset
@@ -36,7 +44,7 @@ This article is a sum-up of three surveys of digital pathology image analysis[^1
 
 
 
-
+[fdaga](#df)
 
 ---
 
