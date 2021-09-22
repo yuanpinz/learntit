@@ -85,6 +85,10 @@
 - [**Multi-task Learning**](https://github.com/yuanpinz/learntit/tree/main/learnt/multi-task-learning) [[notes]](./learnt/multi-task-learning/multi-task-learning.md) 
 - [**Segmentation Loss**](https://github.com/yuanpinz/learntit/tree/main/learnt/segmentation-loss) [[notes]](./learnt/segmentation-loss/segmentation-loss.md) 
 
+### Deep Learning in Medical Imaging
+
+- [Pathology](https://github.com/yuanpinz/learntit/tree/main/learnt/pathology) [[notes]](./learnt/pathology/pathology.md) 
+
 ## [Paper-Reading](https://github.com/yuanpinz/learntit/tree/main/learnt/paper-reading/)
 
 - Lu M Y, Chen T Y, Williamson D F K, et al. AI-based pathology predicts origins for cancers of unknown primary[J]. Nature, 2021, 594(7861): 106-110. [[paper]](https://www.nature.com/articles/s41586-021-03512-4) [[notes]](./learnt/paper-reading/AI-based-pathology-predicts-origins-for-cancers-of-unknown-primary.md) 
