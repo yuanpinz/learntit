@@ -1,5 +1,11 @@
 # Machine Learning Researches
 
+## 2021.09.20
+
+### :star:Synced: [DeepMind’s Bootstrapped Meta-Learning Enables Meta Learners to Teach Themselves](https://syncedreview.com/2021/09/20/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-107/)
+
+
+
 ## 2021.09.16
 
 ### :star:Google AI: [Toward Fast and Accurate Neural Networks for Image Recognition](http://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html)
