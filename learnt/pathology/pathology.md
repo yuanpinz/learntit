@@ -6,7 +6,7 @@ This article is a sum-up of three surveys of digital pathology image analysis[^1
 
 ## Tasks
 
-#### dfafa {#df}
+
 
 
 
@@ -43,8 +43,6 @@ This article is a sum-up of three surveys of digital pathology image analysis[^1
 
 
 
-
-[fdaga](#df)
 
 ---
 
