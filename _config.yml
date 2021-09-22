@@ -3,5 +3,6 @@ title: Learntit
 description: I'm a ML rookie. This page mainly focus on sharing computer science and data science knowledge.
 plugins:
   - jemoji
-
+layout: default
+comments: true
 
