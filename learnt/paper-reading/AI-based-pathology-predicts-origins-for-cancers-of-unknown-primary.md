@@ -4,6 +4,8 @@
 
 # AI-based pathology predicts origins for cancers of unknown primary
 
+[**Paper**](https://www.nature.com/articles/s41586-021-03512-4): Lu, M. Y., Chen, T. Y., Williamson, D. F., Zhao, M., Shady, M., Lipkova, J., & Mahmood, F. (2021). AI-based pathology predicts origins for cancers of unknown primary. *Nature*, *594*(7861), 106-110.
+
 ## Available Materials
 
 - **Data**
