@@ -1,5 +1,7 @@
 {% include head.html %}
 
+{% include disqus.html %}
+
 # AI-based pathology predicts origins for cancers of unknown primary
 
 ## Available Materials
