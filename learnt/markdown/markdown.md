@@ -1,8 +1,6 @@
 # Markdown Syntax
 
-## Basic Syntax
-
-### Headings
+## Headings
 
 ```markdown
 # heading level 1
@@ -19,7 +17,7 @@
 >
 > ###### heading level 6
 
-### Horizontal Rules
+## Horizontal Rules
 
 ```markdown
 up
@@ -33,7 +31,7 @@ down
 >
 > down
 
-### Paragraphs and Line Breaks
+## Paragraphs and Line Breaks
 
 Paragraphs: use **blank line** to separate
 
@@ -51,7 +49,7 @@ line2
 > para2,line1<br>
 > line2
 
-### Emphasis
+## Style
 
 ```markdown
 **bold**
@@ -63,7 +61,23 @@ line2
 > *italic*
 > ***bold and italic***
 
-### Blockquotes
+### Strikethrough [Extended Syntax]
+
+```markdown
+~~Strikethrough~~
+```
+
+> ~~Strikethrough~~
+
+### Emoji [Extended Syntax]
+
+```markdown
+Gone camping! :tent: Be back soon. That is so funny! :joy:
+```
+
+> Gone camping! :tent: Be back soon. That is so funny! :joy:
+
+## Blockquotes
 
 ```markdown
 > blockquotes paragraph1
@@ -79,7 +93,7 @@ line2
 >  >
 >  > > nested blockquotes
 
-### Lists
+## Lists
 
 ```
 1. order list
@@ -96,6 +110,20 @@ line2
 >
 > - unorder list
 > - unorder list
+
+### Task Lists [Extended Syntax]
+
+```markdown
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+
+> - [x] Write the press release
+> - [ ] Update the website
+> - [ ] Contact the media
+
+## Hyperlinks
 
 ### Links
 
@@ -130,25 +158,41 @@ line2
 > ![Google.com](/imgs/google-icon.png "Google it")
 > [![Google.com](/imgs/google-icon.png "Google it")](https://www.google.com/)
 
-## Extended Syntax
+### Heading IDs [Extended Syntax]
 
-### Code
+```markdown
+### My Great Heading 1
+### My Great Heading 2 {#custom-id}
+
+This is [my great heading 1](#my-great-heading-1), another one is [here](#custom-id).
+```
+
+> ### My Great Heading 1
+> ### My Great Heading 2 {#custom-id}
+>
+> This is [my great heading 1](#my-great-heading-1), another one is [here](#custom-id).
+
+## Code
 
 ````markdown
 `print('hello world')`
+````
 
+> `print('hello world')`
+
+**Syntax Highlighting [Extended Syntax]**
+
+````markdown
 ```python
 print('hello world')
 ```
 ````
 
-> `print('hello world')`
->
 > ```python
 > print('hello world')
 > ```
 
-### Tables
+## Tables [Extended Syntax]
 
 ```markdown
 | Syntax      | Description |
@@ -172,7 +216,7 @@ print('hello world')
 > | Header    |    Title    | Here's this |
 > | Paragraph |    Text     |    And more |
 
-### Footnotes
+## Footnotes [Extended Syntax]
 
 ```markdown
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
@@ -200,17 +244,23 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 >     
 >     Add as many paragraphs as you like.
 
+## Definition Lists [Extended List]
 
+```markdown
+First Term
+: This is the definition of the first term.
 
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+```
 
-
-
-
-
-
-
-
-
+> First Term
+> : This is the definition of the first term.
+>
+> Second Term
+> : This is one definition of the second term.
+> : This is another definition of the second term.
 
 
 
@@ -245,7 +295,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 ---
 
-**Ref**[^1]
+**Ref**[^ref1]
 
-[^1]: [Markdown Guild](https://www.markdownguide.org/)
+[^ref1]: [Markdown Guild](https://www.markdownguide.org/)
 
