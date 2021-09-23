@@ -1,5 +1,15 @@
 # Machine Learning Researches
 
+## 2021.09.22
+
+### :star:Google AI: [Pathdreamer: A World Model for Indoor Navigation](http://ai.googleblog.com/2021/09/pathdreamer-world-model-for-indoor.html)
+
+[[paper]](https://arxiv.org/abs/2105.08756)
+
+**Keywords**: indoor navigation
+
+**Comment**: Super Cool!
+
 ## 2021.09.20
 
 ### :star:Synced: [DeepMind’s Bootstrapped Meta-Learning Enables Meta Learners to Teach Themselves](https://syncedreview.com/2021/09/20/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-107/)
