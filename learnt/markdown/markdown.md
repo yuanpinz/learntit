@@ -1,6 +1,8 @@
 # Markdown Syntax
 
-## Headings
+## Basic Syntax
+
+### Headings
 
 ```markdown
 # heading level 1
@@ -17,7 +19,7 @@
 >
 > ###### heading level 6
 
-## Horizontal Rules
+### Horizontal Rules
 
 ```markdown
 up
@@ -31,7 +33,7 @@ down
 >
 > down
 
-## Paragraphs and Line Breaks
+### Paragraphs and Line Breaks
 
 Paragraphs: use **blank line** to separate
 
@@ -49,7 +51,7 @@ line2
 > para2,line1<br>
 > line2
 
-## Emphasis
+### Emphasis
 
 ```markdown
 **bold**
@@ -61,7 +63,7 @@ line2
 > *italic*
 > ***bold and italic***
 
-## Blockquotes
+### Blockquotes
 
 ```markdown
 > blockquotes paragraph1
@@ -77,7 +79,7 @@ line2
 >  >
 >  > > nested blockquotes
 
-## Lists
+### Lists
 
 ```
 1. order list
@@ -95,7 +97,42 @@ line2
 > - unorder list
 > - unorder list
 
-## Code
+### Links
+
+```markdown
+[Google.com](https://www.google.com/)
+[Google.com](https://www.google.com/ "search engine")
+[Google.com Reference-style Links][1]
+[1]: https://www.google.com/ "search engine"
+
+<https://www.google.com/>
+<yuanpinzhou@gmail.com>
+```
+
+> [Google.com](https://www.google.com/)
+> [Google.com](https://www.google.com/ "search engine")
+> [Google.com Reference-style Links][1]
+>
+> [1]: https://www.google.com/ "search engine"
+>
+> <https://www.google.com/>
+> <yuanpinzhou@gmail.com>
+
+### Images
+
+```
+![Google.com](/imgs/google-icon.png)
+![Google.com](/imgs/google-icon.png "Google it")
+[![Google.com](/imgs/google-icon.png "Google it")](https://www.google.com/)
+```
+
+> ![Google.com](/imgs/google-icon.png)
+> ![Google.com](/imgs/google-icon.png "Google it")
+> [![Google.com](/imgs/google-icon.png "Google it")](https://www.google.com/)
+
+## Extended Syntax
+
+### Code
 
 ````markdown
 `print('hello world')`
@@ -111,26 +148,98 @@ print('hello world')
 > print('hello world')
 > ```
 
-## Hyperlink
+### Tables
 
 ```markdown
-[Google.com](https://www.google.com/)
-[Google.com](https://www.google.com/ "search engine")
-<https://www.google.com/>
-<yuanpinzhou@gmail.com>
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
 ```
 
-> [Google.com](https://www.google.com/)
-> [Google.com](https://www.google.com/ "search engine")
+> | Syntax    | Description |
+> | --------- | ----------- |
+> | Header    | Title       |
+> | Paragraph | Text        |
 >
-> <https://www.google.com/>
-> <yuanpinzhou@gmail.com>
+> | Syntax    | Description |   Test Text |
+> | :-------- | :---------: | ----------: |
+> | Header    |    Title    | Here's this |
+> | Paragraph |    Text     |    And more |
+
+### Footnotes
+
+```markdown
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+```
+
+> Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+>
+> [^1]: This is the first footnote.
+>
+> [^bignote]: Here's one with multiple paragraphs and code.
+>
+>     Indent paragraphs to include them in the footnote.
+>     
+>     `{ my code }`
+>     
+>     Add as many paragraphs as you like.
 
 
 
-[hobbit-hole][1]
 
-[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
