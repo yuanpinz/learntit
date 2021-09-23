@@ -273,40 +273,50 @@ Second Term
 > : This is one definition of the second term.
 > : This is another definition of the second term.
 
+## Useful inline HTML
 
+### Comment
 
+```markdown
+<!-- This is an HTML comment in Markdown -->
 
+<!--
+Comment multiple lines,
+like this.
+-->
+```
 
+### Adjust Images
 
+```markdown
+![](imgs/google-icon.png "original image")
 
+<img src="imgs/google-icon.png" title="zoom image" style="zoom:25%;" />
 
+<img src="imgs/google-icon.png" title="resized image" width="200" height="50" />
 
+<img src="imgs/google-icon.png" title="resized image" align="right">
+```
 
+>![](imgs/google-icon.png "original image")
+>
+><img src="imgs/google-icon.png" title="zoom image" style="zoom:25%;" />
+>
+><img src="imgs/google-icon.png" title="resized image" width="200" height="50" />
+>
+><img src="imgs/google-icon.png" title="resized image" align="right">
 
+### Align Text Block
 
+```markdown
+<p align="center">
+    This is a right aligned paragraph.
+    Check it out.
+</p>
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-**Ref**[^ref1]
-
-[^ref1]: [Markdown Guild](https://www.markdownguide.org/)
+> <p align="center">
+>     This is a right aligned paragraph.
+>     Check it out.
+> </p>
 
