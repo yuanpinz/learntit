@@ -156,18 +156,18 @@ Gone camping! :tent: Be back soon. That is so funny! :joy:
 ### Images
 
 ```
-![Google.com](/imgs/google-icon.png)
+![Google.com](imgs/google-icon.png)
 
-![Google.com](/imgs/google-icon.png "Google it")
+![Google.com](imgs/google-icon.png "Google it")
 
-[![Google.com](/imgs/google-icon.png "Google it")](https://www.google.com/)
+[![Google.com](imgs/google-icon.png "Google it")](https://www.google.com/)
 ```
 
->![Google.com](/imgs/google-icon.png)
+>![Google.com](imgs/google-icon.png)
 >
->![Google.com](/imgs/google-icon.png "Google it")
+>![Google.com](imgs/google-icon.png "Google it")
 >
->[![Google.com](/imgs/google-icon.png "Google it")](https://www.google.com/)
+>[![Google.com](imgs/google-icon.png "Google it")](https://www.google.com/)
 
 ### Heading IDs [Extended Syntax]
 
