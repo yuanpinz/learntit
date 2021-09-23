@@ -53,12 +53,16 @@ line2
 
 ```markdown
 **bold**
+
 *italic*
+
 ***bold and italic***
 ```
 
 > **bold**
+> 
 > *italic*
+> 
 > ***bold and italic***
 
 ### Strikethrough [Extended Syntax]
@@ -129,11 +133,14 @@ Gone camping! :tent: Be back soon. That is so funny! :joy:
 
 ```markdown
 [Google.com](https://www.google.com/)
+
 [Google.com](https://www.google.com/ "search engine")
+
 [Google.com Reference-style Links][1]
 [1]: https://www.google.com/ "search engine"
 
 <https://www.google.com/>
+
 <yuanpinzhou@gmail.com>
 ```
 
@@ -150,13 +157,17 @@ Gone camping! :tent: Be back soon. That is so funny! :joy:
 
 ```
 ![Google.com](/imgs/google-icon.png)
+
 ![Google.com](/imgs/google-icon.png "Google it")
+
 [![Google.com](/imgs/google-icon.png "Google it")](https://www.google.com/)
 ```
 
-> ![Google.com](/imgs/google-icon.png)
-> ![Google.com](/imgs/google-icon.png "Google it")
-> [![Google.com](/imgs/google-icon.png "Google it")](https://www.google.com/)
+>![Google.com](/imgs/google-icon.png)
+>
+>![Google.com](/imgs/google-icon.png "Google it")
+>
+>[![Google.com](/imgs/google-icon.png "Google it")](https://www.google.com/)
 
 ### Heading IDs [Extended Syntax]
 
