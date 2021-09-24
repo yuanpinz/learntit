@@ -18,6 +18,19 @@ This article is a sum-up of three surveys of digital pathology image analysis[^1
 
 ## Dataset
 
+| Dataset                                                      | Field            | Size         | Sample                                                       |
+| ------------------------------------------------------------ | ---------------- | ------------ | ------------------------------------------------------------ |
+| [TCGA](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga/using-tcga) | Cancer related   | > 470 TB     | ![image-20210923155258152](imgs/image-20210923155258152.png) |
+| [TUPAC16](https://tupac.grand-challenge.org/Dataset/)        | Tumor mitosis    | ≈ 821 slides | ![image-20210923155853306](imgs/image-20210923155853306.png) |
+| [Camelyon](https://camelyon17.grand-challenge.org/Data/)     | Breast cancer    | ≈ 3 TB       | ![image-20210923160158270](imgs/image-20210923160158270.png) |
+| [Kimia Path24](https://kimialab.uwaterloo.ca/kimia/index.php/pathology-images-kimia-path24/) | Pathology Images | 24 WSIs      | ![image-20210923155839690](imgs/image-20210923155839690.png) |
+
+
+
+
+
+
+
 ## Methodology
 
 ![image-20210922172310509](imgs/image-20210922172310509.png)

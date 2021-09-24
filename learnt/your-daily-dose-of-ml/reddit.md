@@ -1,6 +1,24 @@
 # Reddit/r/\<ML Topics\>
 
-### r/MachineLearning: [[Discussion] How to present machine learning projects to domain experts without ML background?](https://www.reddit.com/r/MachineLearning/comments/pph0ak/discussion_how_to_present_machine_learning/)
+## r/datascience: [Data science even at mature companies can be a mixed bag.](https://www.reddit.com/r/datascience/comments/pu1y72/data_science_even_at_mature_companies_can_be_a/)
+
+> Posted by
+>
+> [u/__compactsupport__](https://www.reddit.com/user/__compactsupport__/)
+>
+> Earned a full time position at a bank in their Financial Crime team preventing traders from manipulating the market. They said they had lots of data (they do) and wanted to incorporate some machine learning into their business. Sweet, I'm in.
+>
+> Its been rough. The team is a year old, they are mostly focused on making the product work rather than anything else, everything is run through KX and the q language (which is cool if you're into trading but a nightmare if you want to do analytics or ML).
+>
+> I've been given extremely easy to answer questions but the business insists I use ML because that's why they hired me. "Tell me when a trader makes a trade in a new sector" -- my guy, that is a look and not a problem for machine learning. I'd love to answer these questions, but because I'm at a bank things are extremely slow to move on anything. Getting a data store for analytics is a months long endeavour leaving me to use .csv files. I can't scale that.
+>
+> Gets better. I tried asking to talk to some of the people using our product so I could identify pain points and how we could solve that. Got a big fat "NOPE" and actually initiated an argument between my manager and the business owner.
+>
+> There is also nowhere for us to centralize our analytics work. No feature store, no data science sandbox, no data engineering to give us up to date info. I don't even have access to production data! All I get is staging which I have been assured is fit fur purpose \s.
+>
+> I'm frustrated. Its been 5 months or so, I think that is long enough to say "hey, not a good fit" and maybe find another position. Its a real shame because I worked in a different team at the same bank and they were much more mature with respect to data science.
+
+## r/MachineLearning: [[Discussion] How to present machine learning projects to domain experts without ML background?](https://www.reddit.com/r/MachineLearning/comments/pph0ak/discussion_how_to_present_machine_learning/)
 
 >[Screye](https://www.reddit.com/user/Screye/)
 >
@@ -27,7 +45,7 @@
 >
 >Hope this helps.
 
-### r/datascience: [Any Data Scientists here working for Microsoft or Amazon?](https://www.reddit.com/r/datascience/comments/pp2htw/any_data_scientists_here_working_for_microsoft_or/)
+## r/datascience: [Any Data Scientists here working for Microsoft or Amazon?](https://www.reddit.com/r/datascience/comments/pp2htw/any_data_scientists_here_working_for_microsoft_or/)
 
 > [leatherarmor](https://www.reddit.com/user/leatherarmor/)
 >
@@ -42,7 +60,7 @@
 > 7. **What's the remote work policy?** Atm, we are full remote. Starting in January, official policy from the top down is 3 days in, 2 days remote, although that might change.
 > 8. **How's your work life balance?** So far great, but I'm still new. I think the long term answer is good not great. It's better than a startup, but there are big scary deadlines that you need to meet. FYI being a DS is quite a bit better than being a Data Engineer, because you won't be on call.
 
-### r/deeplearning: [TorchVision now has a super flexible feature extraction utility](https://www.reddit.com/r/deeplearning/comments/powk7s/torchvision_now_has_a_super_flexible_feature/)
+## r/deeplearning: [TorchVision now has a super flexible feature extraction utility](https://www.reddit.com/r/deeplearning/comments/powk7s/torchvision_now_has_a_super_flexible_feature/)
 
 > [Watch on YouTube](https://www.youtube.com/watch?v=QRQBTkCLpFY)
 

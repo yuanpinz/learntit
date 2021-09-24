@@ -1,5 +1,15 @@
 # Machine Learning Researches
 
+## 2021.09.23
+
+### Synced: [UMass Amherst & Google Improve Few-Shot Learning on NLP Benchmarks via Task Augmentation and Self-Training](https://syncedreview.com/2021/09/23/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-110/)
+
+[[paper]](https://arxiv.org/pdf/2109.06270.pdf)
+
+### Google AI: [High-Quality, Robust and Responsible Direct Speech-to-Speech Translation](http://ai.googleblog.com/2021/09/high-quality-robust-and-responsible.html)
+
+[[paper]](https://arxiv.org/pdf/2107.08661.pdf)
+
 ## 2021.09.22
 
 ### :star:Google AI: [Pathdreamer: A World Model for Indoor Navigation](http://ai.googleblog.com/2021/09/pathdreamer-world-model-for-indoor.html)

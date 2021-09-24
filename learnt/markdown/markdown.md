@@ -137,6 +137,7 @@ Gone camping! :tent: Be back soon. That is so funny! :joy:
 [Google.com](https://www.google.com/ "search engine")
 
 [Google.com Reference-style Links][1]
+
 [1]: https://www.google.com/ "search engine"
 
 <https://www.google.com/>
@@ -145,7 +146,9 @@ Gone camping! :tent: Be back soon. That is so funny! :joy:
 ```
 
 > [Google.com](https://www.google.com/)
+> 
 > [Google.com](https://www.google.com/ "search engine")
+> 
 > [Google.com Reference-style Links][1]
 >
 > [1]: https://www.google.com/ "search engine"
